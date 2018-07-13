@@ -1,0 +1,40 @@
+.pagination {
+  background: #fff;
+  @extend %box-shadow-inset;
+  @include border-radius(3px);
+  padding: 16px 8px;
+  margin: 0 0 10px;
+
+  .page-item {
+    display: inline-block;
+    margin: 0 2px;
+    vertical-align: middle;
+    
+    &.active .page-link, span.page-link:hover {
+      color:#fff;
+      background: #c0c4d7;
+      @include border-radius(25px);
+    }
+    
+    &.disabled .page-link {
+      color: #6c757d;
+    }
+    
+    .page-link {
+      @extend %font-size-sm;
+      @extend %font-weight-medium;
+      color: #283346;
+      display: block;
+      position: relative;
+      padding: 1px 12px;
+      border: 0;
+      background: transparent;
+      outline: 0;
+      box-shadow: none;
+    }
+    
+    a.page-link:hover {
+      @extend .font-red;
+    }
+  }
+}

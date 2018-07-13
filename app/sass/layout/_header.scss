@@ -1,0 +1,55 @@
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.site-header {
+  position:relative;
+  background-color: $background-header-color;
+
+  &__navigation {
+    @include breakpoint(max-width bp(md)) {
+      display: none;
+    }
+  }
+
+  &__offcanvas {
+    display :none;
+
+    @include breakpoint(max-width bp(md)) {
+      display: block;
+    }
+
+    .navbar-offcanvas {
+      background: #fff;
+    }
+
+    .offcanvas-toggle {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 15px;
+      background: transparent;
+
+      &__icon {
+        display: block;
+        color: #fff;
+
+        &--open {
+          display:block;
+        }
+        &--close {
+          display: none;
+        }
+      }
+
+      &.is-open .offcanvas-toggle__icon--open {
+        display: none;
+      }
+      &.is-open .offcanvas-toggle__icon--close {
+        display: block;
+      }
+    }
+  }
+}

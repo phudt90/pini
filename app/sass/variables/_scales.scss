@@ -1,0 +1,43 @@
+$spacers: (
+  0: 0,
+  1: 10px,
+  2: 20px,
+  3: 30px,
+  4: 40px,
+  5: 50px,
+  6: 60px,
+  7: 70px
+);
+
+@each $i, $value in $spacers {
+  .p--#{$i} {
+    padding: $value !important;
+  }
+  .pt--#{$i} {
+    padding-top: $value;
+  }
+  .pb--#{$i} {
+    padding-bottom: $value;
+  }
+  .pl--#{$i} {
+    padding-left: $value;
+  }
+  .pr--#{$i} {
+    padding-right: $value;
+  }
+  .m--#{$i} {
+    padding: $value !important;
+  }
+  .mt--#{$i} {
+    margin-top: $value;
+  }
+  .mb--#{$i} {
+    margin-bottom: $value;
+  }
+  .ml--#{$i} {
+    margin-left: $value;
+  }
+  .mr--#{$i} {
+    margin-right: $value;
+  }
+}

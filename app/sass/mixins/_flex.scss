@@ -1,0 +1,6 @@
+@mixin flex-align-items($property) {
+  -webkit-box-align: $property;
+  -webkit-align-items: $property;
+  -moz-box-align: $property;
+  -ms-flex-align: $property; 
+}

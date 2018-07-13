@@ -1,0 +1,33 @@
+@mixin porlet-background($name, $color) {
+  .portlet > .portlet-body.#{$name}, 
+  .portlet.#{$name} {
+      background-color: $color;
+  }
+}
+//@include porlet-background("red", $metronic-red);
+
+@mixin porlet-solid($name, $color) {
+
+  .portlet.solid.#{$name} {
+
+    > .portlet-title,
+    > .portlet-body {
+        border: 0;
+        color: $color;
+    }
+  }
+}
+//@include porlet-solid("red", $metronic-blue-text);
+
+@mixin porlet-box($name, $color, $text-color) {
+
+  .portlet.box.#{$name} {  
+    border: 1px solid lighten($color, 10%); 
+    border-top: 0;
+
+    > .portlet-title {
+      background-color: $color;
+    }
+  }
+}
+//@include porlet-box("red", $metronic-red, $metronic-red-text);

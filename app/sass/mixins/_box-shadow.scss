@@ -1,0 +1,6 @@
+// Drop shadows
+// By default set to: none
+@mixin box-shadow($shadow) {
+  -webkit-box-shadow: none; // iOS <4.3 & Android <4.1
+          box-shadow: none;
+}

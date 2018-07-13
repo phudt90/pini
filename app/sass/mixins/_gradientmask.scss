@@ -1,0 +1,15 @@
+/**
+* Gradient Mask - Adds a white mask to the background
+*
+* @param $direction string -> the gradient direction (either 'top' or 'bottom')
+* @param $offset string -> the gradient offset in percent
+*/
+@mixin gradientmask($direction:bottom, $offset:50%) {
+  background: -webkit-linear-gradient(
+                  $direction,
+                  rgba(255, 255, 255, 0) 0%,
+                  rgba(255, 255, 255, 0.1) $offset,
+                  rgba(255, 255, 255, 1) $offset,
+                  rgba(255, 255, 255, 1) 100%
+  );
+}

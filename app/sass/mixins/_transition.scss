@@ -1,0 +1,10 @@
+/**
+* Transitions
+*/
+@mixin transition($transition-property, $transition-duration: 0.1s, $transition-timing-function: ease-in-out) {
+  -webkit-transition: $transition-property $transition-duration $transition-timing-function;
+  -moz-transition: $transition-property $transition-duration $transition-timing-function;
+  -ms-transition: $transition-property $transition-duration $transition-timing-function;
+  -o-transition: $transition-property $transition-duration $transition-timing-function;
+  transition: $transition-property $transition-duration $transition-timing-function;
+}

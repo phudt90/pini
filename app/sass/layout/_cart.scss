@@ -1,0 +1,52 @@
+.cart {
+  display:inline-block;
+  
+  &__inner{
+    position:relative;
+  }
+  &__link {
+    display:block;
+    height:40px;
+    position:relative;
+    border: 2px solid #fff;
+    padding: 9px 11px 9px 38px;
+    border-radius: 4px;
+    letter-spacing: .7px;
+    @extend %font-size-xxs;
+    @extend %font-weight-medium;
+    color:#ffffff;
+    vertical-align: middle;
+    
+    &:hover {
+      color:inherit!important;
+    }
+    span {
+      display:inline-block;
+      vertical-align:top;
+    }
+    &__icon{
+      position:absolute;
+      top:11px;
+      left:11px;
+      width:19px;
+      height:15px;
+      background-image: url('../img/icons/cart.png');
+      background-repeat: no-repeat;
+      background-position: 0 0;
+    }
+    &__text{
+      color:inherit!important;
+    }
+    &__count{
+      color: #ffffff;
+      padding: 0 6px;
+      margin-left:9px;
+      @extend %font-weight-medium;
+      @extend .bg-red;
+      @include border-radius(3px);
+    }
+  }
+  &_content {
+    position:absolute;
+  }
+}

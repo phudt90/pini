@@ -1,0 +1,68 @@
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  line-height:1.2;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.h4, .h5, .h6, h4, h5, h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+  @extend %font-weight-medium;
+}
+
+.h4, .h5, .h6, h4, h5, h6 {
+  @extend %font-weight-regular;
+}
+
+.h1, h1 {
+  @extend %font-size-xl;
+}
+
+.h2, h2 {
+  @extend %font-size-lg;
+}
+
+.h3, h3 {
+  @extend %font-size-md;
+}
+
+.h4, h4 {
+  @extend %font-size-sm;
+}
+
+.h5, h5, .h6, h6 {
+  @extend %font-size-xs;
+}
+
+b, .sbold {
+  @extend %font-weight-medium;
+}
+
+strong {
+  @extend %font-weight-bold;
+}
+
+button, input, optgroup, select, textarea {
+  @extend %font-weight-regular;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover, a:active, a:focus {
+  text-decoration: none;
+  color: #ff3100;
+}
+
+p {
+  margin: 0 0 15px;
+}
+
+hr {
+  border-color:#e5e5e5;
+}

@@ -1,0 +1,18 @@
+html {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+body {
+  @extend %font-size-sm;
+  @extend %font-weight-light;
+  color: $text-color;
+  background-color: $background-body-color;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}

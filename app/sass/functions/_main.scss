@@ -1,0 +1,19 @@
+@function map($map, $key) {
+  @if map-has-key($map, $key) {
+    @return map-get($map, $key);
+  }
+  @warn "Unknown `#{$key}` in `#{$map}`.";
+  @return null;
+}
+
+@function bp($key) {
+  @if map-has-key($bp, $key) {
+    @return map-get($bp, $key);
+  }
+  @warn "Unknown `#{$key}` in `#{$bp}`.";
+  @return null;
+}
+
+@function color($color, $tone: 0) {
+  @return map-get(map-get($colors, $color), $tone);
+}
