@@ -1,4 +1,17 @@
 var Layout = function() {
+	var handleMainMenu = function() {
+    $('.menu_oc > a, .menu_oc > a + .dropdown-menus, #menu_hor > a, #menu_hor > a + .dropdown-menus, #menu_ver > a, #menu_ver > a + .dropdown-menus, #menu_ver_2 > a, #menu_ver_2 > a + .dropdown-menus, #menu_inline > a, #menu_inline > a + .dropdown-menus, #menu_metro > a, #menu_metro > a + .dropdown-menus, #menu_brands > a, #menu_brands > a + .dropdown-menus, .menu_custom_menu > a, .menu_custom_menu > a + .dropdown-menus, .menu_custom_block > a, .menu_custom_block > a + .dropdown-menus, .flexMenu-viewMore > a, .flexMenu-viewMore ul, .flexMenu-viewMore ul li').hover(function () {
+      $('#bg-blur').addClass('blur');
+    }, function () {
+      $('#bg-blur').removeClass('blur');
+    });
+
+    $('ul.menu.flex-menu').flexMenu({
+      linkText: '<i class="fa fa-circle"></i><i class="fa fa-circle"></i><i class="fa fa-circle"></i>',
+      showOnHover: true,
+      popupClass: 'flexMenu-popup dropdown-menus dropdown-menu-right'
+    });
+  }
 
 	var handleHeaderSearch = function() {
 		$.typeahead({
@@ -83,8 +96,8 @@ var Layout = function() {
 	
 	var handleZoomImages = function() {
     $('.product .zoom').each(function() {
-      let self = $(this);
-      let thumbUrl = self.parent().data('zoom');
+      var self = $(this);
+      var thumbUrl = self.parent().data('zoom');
       self.zoom({
         url: thumbUrl,
       });
@@ -97,6 +110,7 @@ var Layout = function() {
 
 	return {
 		init : function() {
+      handleMainMenu();
 			handleHeaderSearch();
 			handleFlexImages();
 			handleZoomImages();
