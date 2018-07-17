@@ -3,7 +3,23 @@
   top: 0;
   width: 100%;
   z-index: 9999;
+  transition: 0.5s ease-in-out 0s;
+
+  &.header-fixed {
+    box-shadow: 0 0 15px rgba(76,88,103,0.15);
+  }
 }
+
+#menu-fix {
+  height: 141px;
+  max-height: 141px;
+
+  @include breakpoint(max-width bp(sm)) {
+    height: 131px;
+    max-height: 131px;
+  }
+}
+
 .site-header {
   position:relative;
   background-color: $background-header-color;
@@ -11,45 +27,6 @@
   &__navigation {
     @include breakpoint(max-width bp(md)) {
       display: none;
-    }
-  }
-
-  &__offcanvas {
-    display :none;
-
-    @include breakpoint(max-width bp(md)) {
-      display: block;
-    }
-
-    .navbar-offcanvas {
-      background: #fff;
-    }
-
-    .offcanvas-toggle {
-      position: absolute;
-      top: 0;
-      right: 0;
-      padding: 15px;
-      background: transparent;
-
-      &__icon {
-        display: block;
-        color: #fff;
-
-        &--open {
-          display:block;
-        }
-        &--close {
-          display: none;
-        }
-      }
-
-      &.is-open .offcanvas-toggle__icon--open {
-        display: none;
-      }
-      &.is-open .offcanvas-toggle__icon--close {
-        display: block;
-      }
     }
   }
 }

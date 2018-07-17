@@ -11,7 +11,23 @@ var Layout = function() {
       showOnHover: true,
       popupClass: 'flexMenu-popup dropdown-menus dropdown-menu-right'
     });
-  }
+  };
+
+  var handleMobileMenu = function() {
+    $("#menu-mobile-toggle, #menu-mobile-toggle-close, .sidebar-opacity").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("menu-toggled");
+      $(".sidebar-opacity").toggleClass("menu-toggled");
+    });
+
+    $("#accordion-mobile").dcAccordion({
+      disableLink: false,
+      menuClose: false,
+      autoClose: true,
+      autoExpand: true,
+      saveState: false
+    });
+  };
 
 	var handleHeaderSearch = function() {
 		$.typeahead({
@@ -111,10 +127,15 @@ var Layout = function() {
 	return {
 		init : function() {
       handleMainMenu();
+      handleMobileMenu();
 			handleHeaderSearch();
 			handleFlexImages();
 			handleZoomImages();
 			handleChosen();
+
+      $(window).on("scroll touchmove", function () {
+        $('header').toggleClass('header-fixed', $(document).scrollTop() > 141);
+      });
 		}
 	};
 }();

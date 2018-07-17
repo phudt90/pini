@@ -1,6 +1,10 @@
 .header-search {
   position: relative;
 
+  @include breakpoint(max-width bp(sm)) {
+    margin: 0 0 10px;
+  }
+
   .form-search {
     display:block;
     position:relative;

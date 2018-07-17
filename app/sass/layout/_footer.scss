@@ -1,0 +1,98 @@
+footer {
+  margin-top: 0;
+
+  .newsletter {
+    color: #FFFFFF;
+    background-color: #3E3FD3;
+    padding: 30px 0;
+
+    &__block {
+      margin: 0 0 10px;
+    }
+
+    .lnr {
+      float: left;
+      font-size: 50px;
+      margin-right: 20px;
+      margin-top: -5px;
+      color: #04DED1;
+      transform: rotate(-10deg);
+    }
+
+    .heading{
+      display: block;
+      @extend %font-size-ml;
+      @extend %font-weight-regular;
+    }
+    .subtext {
+      @extend %font-size-xs;
+      color:#9ba5f5;
+    }
+
+    &__form {
+      &__inner {
+        input {
+          height: 50px;
+          margin: 0;
+          padding: 10px 25px;
+          letter-spacing: 1px;
+          float: left;
+
+          @include breakpoint(max-width bp(sm)) {
+            float: none;
+            width: 100%!important;
+            margin: 0 0 10px!important;
+          }
+        }
+        input[type="email"] {
+          color: $text-color;
+          width: calc(100% - 160px);
+        }
+
+        input[type="submit"] {
+          width: 150px;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+
+  .information {
+    padding: 30px 0 35px;
+
+    h3 {
+      @extend %font-size-lg;
+      @extend %font-weight-medium;
+      color: #14152D;
+      margin-top: 20px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    a, span {
+      color: #6A7B8E;
+    }
+    a:hover {
+      color: #04DED1;
+    }
+
+    a.btn {
+      margin-top: 30px;
+    }
+  }
+
+  .copyright {
+    @extend %font-size-xs;
+    @extend %font-weight-light;
+    padding: 20px 0;
+    background-color: #FFFFFF;
+    border-top: 1px solid #F2F4F8;
+
+    .small {
+      @extend %font-size-xxs;
+    }
+  }
+}
