@@ -6,7 +6,7 @@
   <div class="site-header__main">
     <div class="container">
       <div class="slds-grid slds-grid_vertical-align-center slds-wrap slds-gutters_x-small">
-        <div class="slds-col slds-size_3-of-12 d-md-none d-lg-none">
+        <div class="slds-col slds-size_3-of-12 d-lg-none">
           <a href="javascript:;" class="btn menu-mobile-toggle" id="menu-mobile-toggle">
             <span class="lnr lnr-menu"></span>
           </a>

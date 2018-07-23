@@ -1,4 +1,4 @@
-<div id="menu-mobile" class="d-md-none d-lg-none">
+<div id="menu-mobile" class="d-lg-none">
   <div class="menu-mobile__inner">
     <ul class="nav nav-tabs">
       <li><a href="#tab-mobile-menu" class="active show" data-toggle="tab" role="tab"><span class="lnr lnr-menu"></span></a></li>
@@ -12,9 +12,9 @@
       <div class="tab-pane fade active show" id="tab-mobile-menu" role="tabpanel">
         <ul class="accordion sidebar-nav list-group" id="accordion-mobile">
           <li class="sidebar-title h4">Menu</li>
-          <li class="home-mobile"><a href="http://getcart.321cart.com/default/index.php?route=common/home">Home</a></li>
+          <li class="home-mobile"><a href="javascript:;">Home</a></li>
           <li class="category-mobile">
-            <a href="http://getcart.321cart.com/default/index.php?route=product/category&amp;path=62" class="list-group-item">Electronics</a><div class="dcjq-icon"><span class="lnr lnr-cross"></span></div>
+            <a href="javascript:;" class="list-group-item">Electronics</a><div class="dcjq-icon"><span class="lnr lnr-cross"></span></div>
             <ul>
               <li>
                 <a href="http://getcart.321cart.com/default/index.php?route=product/category&amp;path=62_84" class="list-group-item">TV &amp; Home Audio</a>
