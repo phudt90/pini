@@ -146,7 +146,7 @@
                     </li>
 
                   </ul>
-                  <img src="http://getcart.321cart.com/sport/image/cache/catalog/category/menu_oc_cat_4-550x505.png" class="cat-img" title="http://getcart.321cart.com/sport/image/cache/catalog/category/menu_oc_cat_4-550x505.png" alt="http://getcart.321cart.com/sport/image/cache/catalog/category/menu_oc_cat_4-550x505.png" />
+                  <img src="dist/img/menu/menu_oc_cat_4-550x505.png" class="cat-img" title="" alt="" />
                 </div>
               </li>
               <li>
@@ -275,7 +275,7 @@
                     </li>
 
                   </ul>
-                  <img src="http://getcart.321cart.com/sport/image/cache/catalog/category/menu_oc_cat_3-550x505.png" class="cat-img" title="http://getcart.321cart.com/sport/image/cache/catalog/category/menu_oc_cat_3-550x505.png" alt="http://getcart.321cart.com/sport/image/cache/catalog/category/menu_oc_cat_3-550x505.png" />
+                  <img src="dist/img/menu/menu_oc_cat_3-550x505.png" class="cat-img" title="" alt="" />
                 </div>
               </li>
               <li>
@@ -371,7 +371,7 @@
                     </li>
 
                   </ul>
-                  <img src="http://getcart.321cart.com/sport/image/cache/catalog/category/menu_oc_cat_5-550x505.png" class="cat-img" title="http://getcart.321cart.com/sport/image/cache/catalog/category/menu_oc_cat_5-550x505.png" alt="http://getcart.321cart.com/sport/image/cache/catalog/category/menu_oc_cat_5-550x505.png" />
+                  <img src="dist/img/menu/menu_oc_cat_5-550x505.png" class="cat-img" title="" alt="" />
                 </div>
               </li>
               <li>
@@ -465,7 +465,7 @@
                     </li>
 
                   </ul>
-                  <img src="http://getcart.321cart.com/sport/image/cache/catalog/category/menu_oc_cat_6-550x505.png" class="cat-img" title="http://getcart.321cart.com/sport/image/cache/catalog/category/menu_oc_cat_6-550x505.png" alt="http://getcart.321cart.com/sport/image/cache/catalog/category/menu_oc_cat_6-550x505.png" />
+                  <img src="dist/img/menu/menu_oc_cat_6-550x505.png" class="cat-img" title="" alt="" />
                 </div>
               </li>
               <li>
@@ -568,7 +568,7 @@
                     </li>
 
                   </ul>
-                  <img src="http://getcart.321cart.com/sport/image/cache/catalog/category/menu_oc_cat_2-550x505.png" class="cat-img" title="http://getcart.321cart.com/sport/image/cache/catalog/category/menu_oc_cat_2-550x505.png" alt="http://getcart.321cart.com/sport/image/cache/catalog/category/menu_oc_cat_2-550x505.png" />
+                  <img src="dist/img/menu/menu_oc_cat_2-550x505.png" class="cat-img" title="" alt="" />
                 </div>
               </li>
               <li>
@@ -663,7 +663,7 @@
                     </li>
 
                   </ul>
-                  <img src="http://getcart.321cart.com/sport/image/cache/catalog/category/menu_oc_cat_7-550x505.png" class="cat-img" title="http://getcart.321cart.com/sport/image/cache/catalog/category/menu_oc_cat_7-550x505.png" alt="http://getcart.321cart.com/sport/image/cache/catalog/category/menu_oc_cat_7-550x505.png" />
+                  <img src="dist/img/menu/menu_oc_cat_7-550x505.png" class="cat-img" title="" alt="" />
                 </div>
               </li>
               <li>
@@ -1022,145 +1022,145 @@
               <div class="slds-grid slds-grid_vertical-align-center slds-wrap slds-gutters_x-small">
                 <div class="brand-item slds-col slds-size_1-of-12">
                   <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=15">
-                    <div class="image"><img src="http://getcart.321cart.com/sport/image/cache/catalog/brand/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
+                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
                     <div class="name">Sample Brand</div>
                   </a>
                 </div>
                 <div class="brand-item slds-col slds-size_1-of-12">
                   <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=34">
-                    <div class="image"><img src="http://getcart.321cart.com/sport/image/cache/catalog/brand/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
+                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
                     <div class="name">Sample Brand</div>
                   </a>
                 </div>
                 <div class="brand-item slds-col slds-size_1-of-12">
                   <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=21">
-                    <div class="image"><img src="http://getcart.321cart.com/sport/image/cache/catalog/brand/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
+                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
                     <div class="name">Sample Brand</div>
                   </a>
                 </div>
                 <div class="brand-item slds-col slds-size_1-of-12">
                   <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=27">
-                    <div class="image"><img src="http://getcart.321cart.com/sport/image/cache/catalog/brand/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
+                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
                     <div class="name">Sample Brand</div>
                   </a>
                 </div>
                 <div class="brand-item slds-col slds-size_1-of-12">
                   <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=14">
-                    <div class="image"><img src="http://getcart.321cart.com/sport/image/cache/catalog/brand/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
+                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
                     <div class="name">Sample Brand</div>
                   </a>
                 </div>
                 <div class="brand-item slds-col slds-size_1-of-12">
                   <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=33">
-                    <div class="image"><img src="http://getcart.321cart.com/sport/image/cache/catalog/brand/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
+                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
                     <div class="name">Sample Brand</div>
                   </a>
                 </div>
                 <div class="brand-item slds-col slds-size_1-of-12">
                   <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=20">
-                    <div class="image"><img src="http://getcart.321cart.com/sport/image/cache/catalog/brand/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
+                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
                     <div class="name">Sample Brand</div>
                   </a>
                 </div>
                 <div class="brand-item slds-col slds-size_1-of-12">
                   <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=26">
-                    <div class="image"><img src="http://getcart.321cart.com/sport/image/cache/catalog/brand/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
+                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
                     <div class="name">Sample Brand</div>
                   </a>
                 </div>
                 <div class="brand-item slds-col slds-size_1-of-12">
                   <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=13">
-                    <div class="image"><img src="http://getcart.321cart.com/sport/image/cache/catalog/brand/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
+                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
                     <div class="name">Sample Brand</div>
                   </a>
                 </div>
                 <div class="brand-item slds-col slds-size_1-of-12">
                   <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=32">
-                    <div class="image"><img src="http://getcart.321cart.com/sport/image/cache/catalog/brand/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
+                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
                     <div class="name">Sample Brand</div>
                   </a>
                 </div>
                 <div class="brand-item slds-col slds-size_1-of-12">
                   <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=19">
-                    <div class="image"><img src="http://getcart.321cart.com/sport/image/cache/catalog/brand/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
+                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
                     <div class="name">Sample Brand</div>
                   </a>
                 </div>
                 <div class="brand-item slds-col slds-size_1-of-12">
                   <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=25">
-                    <div class="image"><img src="http://getcart.321cart.com/sport/image/cache/catalog/brand/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
+                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
                     <div class="name">Sample Brand</div>
                   </a>
                 </div>
                 <div class="brand-item slds-col slds-size_1-of-12">
                   <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=12">
-                    <div class="image"><img src="http://getcart.321cart.com/sport/image/cache/catalog/brand/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
+                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
                     <div class="name">Sample Brand</div>
                   </a>
                 </div>
                 <div class="brand-item slds-col slds-size_1-of-12">
                   <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=31">
-                    <div class="image"><img src="http://getcart.321cart.com/sport/image/cache/catalog/brand/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
+                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
                     <div class="name">Sample Brand</div>
                   </a>
                 </div>
                 <div class="brand-item slds-col slds-size_1-of-12">
                   <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=18">
-                    <div class="image"><img src="http://getcart.321cart.com/sport/image/cache/catalog/brand/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
+                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
                     <div class="name">Sample Brand</div>
                   </a>
                 </div>
                 <div class="brand-item slds-col slds-size_1-of-12">
                   <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=24">
-                    <div class="image"><img src="http://getcart.321cart.com/sport/image/cache/catalog/brand/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
+                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
                     <div class="name">Sample Brand</div>
                   </a>
                 </div>
                 <div class="brand-item slds-col slds-size_1-of-12">
                   <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=11">
-                    <div class="image"><img src="http://getcart.321cart.com/sport/image/cache/catalog/brand/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
+                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
                     <div class="name">Sample Brand</div>
                   </a>
                 </div>
                 <div class="brand-item slds-col slds-size_1-of-12">
                   <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=30">
-                    <div class="image"><img src="http://getcart.321cart.com/sport/image/cache/catalog/brand/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
+                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
                     <div class="name">Sample Brand</div>
                   </a>
                 </div>
                 <div class="brand-item slds-col slds-size_1-of-12">
                   <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=17">
-                    <div class="image"><img src="http://getcart.321cart.com/sport/image/cache/catalog/brand/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
+                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
                     <div class="name">Sample Brand</div>
                   </a>
                 </div>
                 <div class="brand-item slds-col slds-size_1-of-12">
                   <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=23">
-                    <div class="image"><img src="http://getcart.321cart.com/sport/image/cache/catalog/brand/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
+                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
                     <div class="name">Sample Brand</div>
                   </a>
                 </div>
                 <div class="brand-item slds-col slds-size_1-of-12">
                   <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=29">
-                    <div class="image"><img src="http://getcart.321cart.com/sport/image/cache/catalog/brand/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
+                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
                     <div class="name">Sample Brand</div>
                   </a>
                 </div>
                 <div class="brand-item slds-col slds-size_1-of-12">
                   <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=16">
-                    <div class="image"><img src="http://getcart.321cart.com/sport/image/cache/catalog/brand/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
+                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
                     <div class="name">Sample Brand</div>
                   </a>
                 </div>
                 <div class="brand-item slds-col slds-size_1-of-12">
                   <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=22">
-                    <div class="image"><img src="http://getcart.321cart.com/sport/image/cache/catalog/brand/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
+                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
                     <div class="name">Sample Brand</div>
                   </a>
                 </div>
                 <div class="brand-item slds-col slds-size_1-of-12">
                   <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=28">
-                    <div class="image"><img src="http://getcart.321cart.com/sport/image/cache/catalog/brand/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
+                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
                     <div class="name">Sample Brand</div>
                   </a>
                 </div>

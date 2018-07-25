@@ -111,6 +111,7 @@
       > a {
         @extend %font-size-ml;
         @extend %font-weight-medium;
+        color: $text-color;
         padding: 22px 20px;
         min-height: 15px;
         position: relative;

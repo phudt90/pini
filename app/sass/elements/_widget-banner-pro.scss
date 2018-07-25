@@ -1,0 +1,193 @@
+
+/* Theme Banner Pro */
+
+.theme-banner-pro {
+  display: block;
+  overflow: hidden;
+  padding: 30px 0;
+
+  .theme-banner-pro-item {
+    padding: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .theme-banner-pro-item-wrapper {
+    position: relative;
+    overflow: hidden;
+    @include border-radius(10px);
+    transition: all 0.3s cubic-bezier(0.2, 1, 0.3, 1) 0s;
+    z-index: 1;
+
+    &:hover{
+      z-index: 2;
+    }
+  }
+
+  .theme-banner-pro-content-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 45px 35px;
+    width: 100%;
+    height: 100%;
+
+    @include breakpoint(max-width bp(lg) - 1) {
+      padding: 15px;
+    }
+  }
+}
+
+.theme-banner-pro-item.content-center-left .theme-banner-pro-content-wrapper {
+  left: 0;
+  padding: 30px 0 30px 30px;
+  width: 55%;
+}
+.theme-banner-pro-item.content-center-right .theme-banner-pro-content-wrapper {
+  left: inherit;
+  right: 0;
+  padding: 30px 30px 30px 0;
+  width: 55%;
+}
+.theme-banner-pro-content-table {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.theme-banner-pro-content-table-cell {
+  display: table-cell;
+}
+
+.theme-banner-pro-item.content-top-left h2, .theme-banner-pro-item.content-left h2, .theme-banner-pro-item.content-bottom-left h2 {
+  text-align: left;
+}
+.theme-banner-pro-item.content-top-center .theme-banner-pro-content-wrapper, .theme-banner-pro-item.content-center .theme-banner-pro-content-wrapper, .theme-banner-pro-item.content-bottom-center .theme-banner-pro-content-wrapper, .theme-banner-pro-item.content-center-left .theme-banner-pro-content-wrapper, .theme-banner-pro-item.content-center-right .theme-banner-pro-content-wrapper, .theme-banner-pro-item.content-top-center h2, .theme-banner-pro-item.content-center h2, .theme-banner-pro-item.content-bottom-center h2 {
+  text-align: center;
+}
+.theme-banner-pro-item.content-top-right .theme-banner-pro-content-wrapper, .theme-banner-pro-item.content-right .theme-banner-pro-content-wrapper, .theme-banner-pro-item.content-bottom-right .theme-banner-pro-content-wrapper, .theme-banner-pro-item.content-top-right h2, .theme-banner-pro-item.content-right h2, .theme-banner-pro-item.content-bottom-right h2 {
+  text-align: right !important;
+}
+.theme-banner-pro-item.content-left .theme-banner-pro-content-wrapper .theme-banner-pro-content-table-cell, .theme-banner-pro-item.content-center .theme-banner-pro-content-wrapper .theme-banner-pro-content-table-cell, .theme-banner-pro-item.content-right .theme-banner-pro-content-wrapper .theme-banner-pro-content-table-cell, .theme-banner-pro-item.content-center-left .theme-banner-pro-content-wrapper .theme-banner-pro-content-table-cell, .theme-banner-pro-item.content-center-right .theme-banner-pro-content-wrapper .theme-banner-pro-content-table-cell {
+  vertical-align: middle;
+}
+.theme-banner-pro-item.content-bottom-left .theme-banner-pro-content-wrapper .theme-banner-pro-content-table-cell, .theme-banner-pro-item.content-bottom-center .theme-banner-pro-content-wrapper .theme-banner-pro-content-table-cell, .theme-banner-pro-item.content-bottom-right .theme-banner-pro-content-wrapper .theme-banner-pro-content-table-cell {
+  vertical-align: bottom;
+}
+
+.theme-banner-pro-label {
+  display: block;
+  margin-bottom: 2px;
+}
+h2.theme-banner-pro-title {
+  margin: 0;
+  padding-bottom: 10px !important;
+}
+h2.theme-banner-pro-title:before {
+  border-bottom: none !important;
+}
+.theme-banner-pro-subtitle {
+  float: left;
+  margin-bottom: 0;
+  width: 100%;
+  line-height: 1.7;
+}
+.theme-banner-pro-button.btn {
+  padding: 12px 20px;
+  margin-top: 20px;
+  transition: all 0.15s ease-in 0s;
+}
+.theme-banner-pro-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease-in 0s;
+  opacity: 0;
+}
+.theme-banner-pro-item img  {
+  transition: all 1.5s cubic-bezier(0.2, 1, 0.3, 1) 0s;
+}
+.theme-banner-pro-item.effect-2:hover img  {
+  transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.theme-banner-pro-item.effect-3 img  {
+  transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.theme-banner-pro-item.effect-3:hover img  {
+  transform: scale(1.0);
+  -moz-transform: scale(1.0);
+  -webkit-transform: scale(1.0);
+  -o-transform: scale(1.0);
+  -ms-transform: scale(1.0);
+}
+.theme-banner-pro-item.effect-4 img  {
+  transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+.theme-banner-pro-item.effect-4:hover img  {
+  margin-left: -5%;
+  margin-right: 5%;
+}
+.theme-banner-pro-item.effect-5 img  {
+  transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+}
+.theme-banner-pro-item.effect-5:hover img  {
+  margin-top: -5%;
+  margin-bottom: 5%;
+}
+.theme-banner-pro-item.effect-6 .theme-banner-pro-bg  {
+  top: -100%;
+}
+.theme-banner-pro-item.effect-6:hover .theme-banner-pro-bg  {
+  top: 0;
+}
+.theme-banner-pro-item.effect-7 .theme-banner-pro-bg  {
+  top: inherit;
+  bottom: -100%;
+}
+.theme-banner-pro-item.effect-7:hover .theme-banner-pro-bg  {
+  bottom: 0;
+}
+.theme-banner-pro-item.effect-8 .theme-banner-pro-bg  {
+  left: -100%;
+}
+.theme-banner-pro-item.effect-8:hover .theme-banner-pro-bg  {
+  left: 0;
+}
+.theme-banner-pro-item.effect-9 .theme-banner-pro-content-wrapper span, .theme-banner-pro-item.effect-9 .theme-banner-pro-content-wrapper span h2 {
+  opacity: 0;
+  transition: all 1.5s cubic-bezier(0.2, 1, 0.3, 1) 0s;
+}
+.theme-banner-pro-item.effect-9:hover .theme-banner-pro-content-wrapper span, .theme-banner-pro-item.effect-9:hover .theme-banner-pro-content-wrapper span h2 {
+  opacity: 1;
+}
+.theme-banner-pro-item.effect-10 .theme-banner-pro-content-wrapper span.theme-banner-pro-button {
+  opacity: 0;
+  transition: all 1.5s cubic-bezier(0.2, 1, 0.3, 1) 0s;
+}
+.theme-banner-pro-item.effect-10:hover .theme-banner-pro-content-wrapper span.theme-banner-pro-button  {
+  opacity: 1;
+}
+.theme-banner-pro-item.effect-10:hover img  {
+  transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}

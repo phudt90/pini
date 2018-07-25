@@ -1,0 +1,40 @@
+.tab-links {
+  .nav-tabs {
+    border-bottom: 1px solid #F2F4F8;
+    margin-bottom: 15px;
+
+    > li {
+      float: none;
+      margin-bottom: -1px;
+
+      > a {
+        display: block;
+        padding: 15px;
+        margin: 0;
+        @extend %font-size-lg;
+        @extend %font-weight-regular;
+
+        &.active {
+          border-bottom: 1px solid #00DFFF;
+        }
+      }
+    }
+  }
+
+  &__link {
+    display: block;
+    margin: 0 0 10px;
+
+    &__title {
+      display: block;
+      @extend %font-size-md;
+      @extend %font-weight-regular;
+    }
+
+    &__num {
+      @extend %font-size-xs;
+      @extend %font-weight-regular;
+      color: #757575;
+    }
+  }
+}

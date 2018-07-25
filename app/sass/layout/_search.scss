@@ -1,7 +1,7 @@
 .header-search {
   position: relative;
 
-  @include breakpoint(max-width bp(sm)) {
+  @include breakpoint(max-width bp(md)) {
     margin: 0 0 10px;
   }
 
