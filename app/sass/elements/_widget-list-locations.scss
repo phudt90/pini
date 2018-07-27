@@ -1,0 +1,19 @@
+.list-locations {
+
+  &__link {
+    display: block;
+    margin: 0 0 10px;
+
+    &__title {
+      display: block;
+      @extend %font-size-md;
+      @extend %font-weight-regular;
+    }
+
+    &__num {
+      @extend %font-size-xs;
+      @extend %font-weight-regular;
+      color: #757575;
+    }
+  }
+}

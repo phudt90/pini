@@ -138,73 +138,77 @@
     </div>
   </div>
 
-  <div class="panel">
-    <div class="container full-width-container">
-      <div class="panel-heading panel-heading--center">
-        <h2 class="panel-title">popular products</h2>
-      </div>
-      <div class="panel-body"></div>
-    </div>
-  </div>
-
   <div class="panel bg-white">
     <div class="container full-width-container">
-      <div class="panel-heading panel-heading--center">
-        <h2 class="panel-title">Đại lý ắc quy</h2>
-        <h4 class="panel-title-alt">Danh sách các đại lý ắc quy đã được đăng ký</h4>
-      </div>
       <div class="panel-body">
-        <div class="tab-links">
-          <ul class="nav nav-tabs">
-            <li><a href="#tab-location-1" data-toggle="tab" class="active show h4">Khu vực miền Nam</a></li>
-            <li><a href="#tab-location-2" data-toggle="tab" class="h4">Khu vực miền Trung</a></li>
-            <li><a href="#tab-location-3" data-toggle="tab" class="h4">Khu vực miền Bắc</a></li>
+        <div class="tabs">
+          <ul class="nav nav-tabs nav-tabs--item-center">
+            <li><a href="#tab-products-1" data-toggle="tab" class="active show">Latest</a></li>
+            <li><a href="#tab-products-2" data-toggle="tab" class="">Bestseller</a></li>
+            <li><a href="#tab-products-3" data-toggle="tab" class="">Featured</a></li>
+            <li><a href="#tab-products-4" data-toggle="tab" class="">Specials</a></li>
           </ul>
           <div class="tab-content">
-            <?php $items = [
-              'Tp.HCM', 'An Giang', 'Vũng Tàu', 'Bạc Liêu', 'Bến Tre', 'Bình Dương', 'Cà Mau', 'Hậu Giang', 'Kiên Giang',
-              'Lâm Đồng', 'Long An', 'Tây Ninh', 'Tiền Giang', 'Cần Thơ', 'Vĩnh Long', 'Đồng Nai', 'Đồng Tháp', 'Bình Thuận',
-              'Bình Định', 'Gia Lai', 'Hà Tĩnh', 'Khánh Hòa', 'Nghệ An', 'Phú Yên'
-            ] ?>
-            <div id="tab-location-1" class="tab-pane fade active show">
-              <ul class="slds-grid slds-wrap slds-gutters">
-                <?php shuffle($items) ?>
-                <?php foreach($items as $item) { ?>
-                <li class="slds-col slds-size_6-of-12 slds-medium-size_4-of-12 slds-large-size_2-of-12">
-                  <a href="javascript:;" class="tab-links__link">
-                    <span class="tab-links__link__title"><?php echo $item ?></span>
-                    <span class="tab-links__link__num"><?php echo rand(10, 500) ?> đại lý</span>
-                  </a>
-                </li>
-                <?php } ?>
-              </ul>
+            <div id="tab-products-1" class="tab-pane fade active show">
+              <?php $items = [];
+                $items[] = [
+                  'id' => 1,
+                  'title' => 'Helly Hansen Crew Hooded Midlayer Jacket for Sailors White',
+                  'brand' => 'Daewoo',
+                  'price' => '2.300.000',
+                  'price_old' => '2.600.000'
+                ];
+              ?>
+              <div class="products products--layout-grid">
+                <div class="slds-grid slds-grid_vertical-align-center slds-wrap">
+                  <div class="slds-col slds-size_6-of-12 slds-large-size_2-of-12">
+                    <div class="products__item">
+                      <div class="product-thumb">
+                        <a href="javascript:;">
+                          <img src="dist/img/product/1.jpg" alt="JBL Everest 700 Around-ear Wireless Headphones White" title="JBL Everest 700 Around-ear Wireless Headphones White" class="img-responsive img-normal lazyloaded">
+                        </a>
+                      </div>
+                      <div class="product-info">
+                        <a href="javascript:;" class="product-brand">Sample Brand</a>
+                        <h4 class="product-name">
+                          <a href="javascript:;">Helly Hansen Crew Hooded Midlayer Jacket for Sailors White</a>
+                        </h4>
+                      </div>
+                      <div class="product-price">
+                        <p class="price">
+                          <span class="price-new">2.300.000đ</span>
+                          <span class="price-old">2.600.000đ</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slds-col slds-size_6-of-12 slds-large-size_2-of-12">
+                    <div class="products__item">
+                      <div class="product-thumb">
+                        <a href="javascript:;">
+                          <img src="dist/img/product/2.jpg" alt="JBL Everest 700 Around-ear Wireless Headphones White" title="JBL Everest 700 Around-ear Wireless Headphones White" class="img-responsive img-normal lazyloaded">
+                        </a>
+                      </div>
+                      <div class="product-info">
+                        <a href="javascript:;" class="product-brand">Sample Brand</a>
+                        <h4 class="product-name">
+                          <a href="javascript:;">Adidas Men's Adizero Adios 3 Energy Returning Running Shoes</a>
+                        </h4>
+                      </div>
+                      <div class="product-price">
+                        <p class="price">
+                          <span class="price-new">2.300.000đ</span>
+                          <span class="price-old">2.600.000đ</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div id="tab-location-2" class="tab-pane fade">
-              <ul class="slds-grid slds-wrap slds-gutters">
-                <?php shuffle($items) ?>
-                <?php foreach($items as $item) { ?>
-                  <li class="slds-col slds-size_6-of-12 slds-medium-size_4-of-12 slds-large-size_2-of-12">
-                    <a href="javascript:;" class="tab-links__link">
-                      <span class="tab-links__link__title"><?php echo $item ?></span>
-                      <span class="tab-links__link__num"><?php echo rand(10, 500) ?> đại lý</span>
-                    </a>
-                  </li>
-                <?php } ?>
-              </ul>
-            </div>
-            <div id="tab-location-3" class="tab-pane fade">
-              <ul class="slds-grid slds-wrap slds-gutters">
-                <?php shuffle($items) ?>
-                <?php foreach($items as $item) { ?>
-                  <li class="slds-col slds-size_6-of-12 slds-medium-size_4-of-12 slds-large-size_2-of-12">
-                    <a href="javascript:;" class="tab-links__link">
-                      <span class="tab-links__link__title"><?php echo $item ?></span>
-                      <span class="tab-links__link__num"><?php echo rand(10, 500) ?> đại lý</span>
-                    </a>
-                  </li>
-                <?php } ?>
-              </ul>
-            </div>
+            <div id="tab-products-2" class="tab-pane fade"></div>
+            <div id="tab-products-3" class="tab-pane fade"></div>
+            <div id="tab-products-4" class="tab-pane fade"></div>
           </div>
         </div>
       </div>
@@ -221,6 +225,72 @@
   </div>
 
   <div class="panel bg-white">
+    <div class="container full-width-container">
+      <div class="panel-heading panel-heading--center">
+        <h2 class="panel-title">Đại lý ắc quy</h2>
+        <h4 class="panel-title-alt">Danh sách các đại lý ắc quy đã được đăng ký</h4>
+      </div>
+      <div class="panel-body">
+        <div class="tabs">
+          <ul class="nav nav-tabs">
+            <li><a href="#tab-location-1" data-toggle="tab" class="active show">Khu vực miền Nam</a></li>
+            <li><a href="#tab-location-2" data-toggle="tab" class="">Khu vực miền Trung</a></li>
+            <li><a href="#tab-location-3" data-toggle="tab" class="">Khu vực miền Bắc</a></li>
+          </ul>
+          <div class="tab-content">
+            <?php $items = [
+              'Tp.HCM', 'An Giang', 'Vũng Tàu', 'Bạc Liêu', 'Bến Tre', 'Bình Dương', 'Cà Mau', 'Hậu Giang', 'Kiên Giang',
+              'Lâm Đồng', 'Long An', 'Tây Ninh', 'Tiền Giang', 'Cần Thơ', 'Vĩnh Long', 'Đồng Nai', 'Đồng Tháp', 'Bình Thuận',
+              'Bình Định', 'Gia Lai', 'Hà Tĩnh', 'Khánh Hòa', 'Nghệ An', 'Phú Yên'
+            ] ?>
+            <div id="tab-location-1" class="tab-pane fade active show">
+              <ul class="list-locations slds-grid slds-wrap slds-gutters">
+                <?php shuffle($items) ?>
+                <?php foreach($items as $item) { ?>
+                <li class="slds-col slds-size_6-of-12 slds-medium-size_4-of-12 slds-large-size_2-of-12">
+                  <a href="javascript:;" class="list-locations__link">
+                    <span class="list-locations__link__title"><?php echo $item ?></span>
+                    <span class="list-locations__link__num"><?php echo rand(10, 500) ?> đại lý</span>
+                  </a>
+                </li>
+                <?php } ?>
+              </ul>
+            </div>
+            <div id="tab-location-2" class="tab-pane fade">
+              <ul class="list-locations slds-grid slds-wrap slds-gutters">
+                <?php shuffle($items) ?>
+                <?php foreach($items as $item) { ?>
+                  <li class="slds-col slds-size_6-of-12 slds-medium-size_4-of-12 slds-large-size_2-of-12">
+                    <a href="javascript:;" class="list-locations__link">
+                      <span class="list-locations__link__title"><?php echo $item ?></span>
+                      <span class="list-locations__link__num"><?php echo rand(10, 500) ?> đại lý</span>
+                    </a>
+                  </li>
+                <?php } ?>
+              </ul>
+            </div>
+            <div id="tab-location-3" class="tab-pane fade">
+              <ul class="list-locations slds-grid slds-wrap slds-gutters">
+                <?php shuffle($items) ?>
+                <?php foreach($items as $item) { ?>
+                  <li class="slds-col slds-size_6-of-12 slds-medium-size_4-of-12 slds-large-size_2-of-12">
+                    <a href="javascript:;" class="list-locations__link">
+                      <span class="list-locations__link__title"><?php echo $item ?></span>
+                      <span class="list-locations__link__num"><?php echo rand(10, 500) ?> đại lý</span>
+                    </a>
+                  </li>
+                <?php } ?>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="panel">
     <div class="container full-width-container">
       <div class="panel-heading panel-heading--center">
         <h2 class="panel-title">Latest blogs</h2>
