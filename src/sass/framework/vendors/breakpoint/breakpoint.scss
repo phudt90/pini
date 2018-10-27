@@ -1,0 +1,21 @@
+/**
+* Sass Map the breakpoints
+*/
+@import "../../../../../tools/node_modules/breakpoint-sass/stylesheets/breakpoint";
+
+@each $break, $breaks in $m--layout-breakpoints {
+  @media (min-width : $breaks) {
+    html::before {
+      position: fixed;
+      z-index: 5;
+      bottom: 0;
+      right: 0;
+      padding: 0 4px;
+      font-size: 10px;
+      line-height: 15px;
+      background-color: #222;
+      color: white;
+      content : "#{$break}";
+    }
+  }
+}

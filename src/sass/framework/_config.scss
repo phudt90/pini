@@ -1,0 +1,29 @@
+//
+//** Global Config
+//
+
+//== Framework SASS Functions
+@import "base/functions";
+
+//== Layout Breakpoints
+// Define the minimum and maximum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+$m--layout-breakpoints: (
+  // Small screen / phone
+  sm: 576px,
+
+  // Medium screen / tablet
+  md: 768px,
+
+  // Large screen / desktop
+  lg: 1024px,
+
+  // Extra large screen / wide desktop
+  xl: 1200px,
+
+  // Extra large screen / wide desktop
+  xxl: 1400px,
+
+  // Super Extra large screen / wide desktop
+  xxxl: 1600px
+)!default;

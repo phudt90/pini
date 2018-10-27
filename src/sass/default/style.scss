@@ -1,0 +1,32 @@
+//
+//** Default Stylesheets
+//
+
+////////////////////////////////////////////////////////////////
+///////////// DO NOT MODIFY BELOW INCLUDE ORDER ////////////////
+////////////////////////////////////////////////////////////////
+
+// Framework Config
+@import "../framework/config";
+
+// Breakpoint Include
+@import "../framework/vendors/breakpoint/breakpoint.scss";
+
+// Bootstrap Include
+@import "../framework/vendors/bootstrap/bootstrap.scss";
+
+// Framework Components
+@import "../framework/include";
+
+
+////////////////////////////////////////////////////////////////
+///////////// DO NOT MODIFY ABOVE INCLUDE ORDER ////////////////
+////////////////////////////////////////////////////////////////
+
+// Layout Config
+@import "header/config";
+
+// Layout
+@import "base/page";
+
+@import "header/header";

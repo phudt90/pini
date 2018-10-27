@@ -1,0 +1,25 @@
+//
+//** Header Settings
+//
+
+$m-config-header: (
+  //== Header
+  header: (
+    // Default mode
+    default: (
+      height: (
+        desktop: 70px,
+        mobile: 60px
+      ),
+      bg-color: #1B1B1B
+    ),
+    // Fixed mode
+    fixed: (
+      zindex: 99,
+      hidable: (
+        transition-hide: all 0.3s ease 0.5s,
+        transition-show: all 0.3s ease,
+      )
+    )
+  ),
+);

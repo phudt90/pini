@@ -1,5 +1,5 @@
-<div class="logo-wrapper">
-  <a href="javascript:;" class="logo">
-    <img src="dist/img/logo.png" alt="">
+<div id="logo">
+  <a href="javascript:;">
+    <img src="dist/assets/media/img/logo/getcart_black_white_logo.png" title="" alt="">
   </a>
 </div>

@@ -1,0 +1,80 @@
+{
+  "config": {
+    "demo": "default",
+    "debug": false,
+    "compile": {
+      "jsUglify": false,
+      "cssMinify": false,
+      "jsSourcemaps": false,
+      "cssSourcemaps": false
+    },
+    "path": {
+      "src": "./../src",
+      "node_modules": "./node_modules",
+      "demo_api_url": ""
+    },
+    "dist": [
+      "./../dist/assets"
+    ]
+  },
+  "build": {
+    "vendors": {
+      "base": {
+        "src": {
+          "mandatory": {
+            "popper.js": {
+              "scripts": [
+                "{$config.path.node_modules}/popper.js/dist/umd/popper.js"
+              ]
+            },
+            "bootstrap": {
+              "scripts": [
+                "{$config.path.node_modules}/bootstrap/dist/js/bootstrap.min.js"
+              ]
+            }
+          },
+          "optional": {
+
+          }
+        },
+        "bundle": {
+          "styles": "{$config.output}/vendors/base/vendors.bundle.css",
+          "scripts": "{$config.output}/vendors/base/vendors.bundle.js",
+          "images": "{$config.output}/vendors/base/images",
+          "fonts": "{$config.output}/vendors/base/fonts"
+        }
+      },
+      "custom": {
+
+      }
+    },
+    "demo": {
+      "default": {
+        "base": {
+          "src": {
+            "styles": [
+              "{$config.path.src}/sass/default/style.scss"
+            ],
+            "scripts": [
+
+            ]
+          },
+          "bundle": {
+            "styles": "{$config.output}/default/base/style.bundle.css",
+            "scripts": "{$config.output}/default/base/scripts.bundle.js"
+          }
+        },
+        "custom": {
+          "src": {
+            "media": [
+              "{$config.path.src}/media/**/*.*"
+            ]
+          },
+          "output": {
+            "media": "{$config.output}/media/"
+          }
+        }
+      }
+    }
+  }
+}
