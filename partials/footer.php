@@ -88,14 +88,5 @@
     </div>
   </div>
 </footer>
-<script src="./dist/plugins/jquery.min.js"></script>
-<script src="./dist/plugins/modernizr.custom.js"></script>
-<script src="./dist/plugins/bootstrap/bootstrap.min.js"></script>
-<script src="./dist/plugins/jquery.dcjqaccordion.js"></script>
-<!-- <script src="./dist/plugins/typeahead/typeahead.bundle.min.js"></script> -->
-<script src="./dist/plugins/typeahead/jquery.typeahead.custom.min.js"></script>
-<script src="./dist/plugins/chosen/chosen.jquery.js"></script>
-<script src="./dist/plugins/jquery.flexslider-min.js"></script>
-<script src="./dist/plugins/jquery.zoom.min.js"></script>
-<script src="./dist/plugins/flexmenu/flexmenu.min.js"></script>
-<script src="./dist/plugins/main.js"></script>
+<script src="./dist/assets/vendors/base/vendors.bundle.js"></script>
+<script src="./dist/assets/default/base/scripts.bundle.js"></script>

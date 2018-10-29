@@ -18,7 +18,7 @@
     </div>
   </div>
 
-  <?php //include 'nav_main.php' ?>
+  <?php include 'nav_main.php' ?>
 </header>
 
 <div id="menu-fix"></div>

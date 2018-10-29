@@ -4,9 +4,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Pini</title>
-
 <link href="./dist/img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
+<link rel="stylesheet" href="./dist/assets/vendors/base/vendors.bundle.css?<?php echo time() ?>" media="all" />
 <link rel="stylesheet" href="./dist/assets/default/base/style.bundle.css?<?php echo time() ?>" media="all" />
 
 </head>

@@ -4,477 +4,412 @@
 
       <ul class="main-menu menu flex-menu">
         <!-- Categories Vertical 2 Style -->
-        <li id="menu_ver_2">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="lnr lnr-menu"></span> Shop by Category</a>
+        <li class="menu_oc">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop by Category <i class="la la-angle-down"></i></a>
           <div class="dropdown-menus">
             <ul class="list-unstyled">
               <li>
-                <a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=62">Electronics <i class="fa fa-angle-right"></i></a>
-                <div class="dropdown-menus" style="min-width:500px;min-height:415px;">
+                <a href="javascript:;">Electronics <i class="la la-angle-right"></i></a>
+                <div class="dropdown-menus">
                   <ul class="list-unstyled">
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=62_84">TV &amp; Home Audio <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                    <li>
+                      <a href="javascript:;">TV &amp; Home Audio <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus">
                         <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=84_174">Televisions</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=84_175">Projectors</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=84_176">Blu-ray Players</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=84_177">Home Audio</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=84_178">Smart Home</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=84_179">VR Headsets</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=84_180">Media Streamers</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=84_181">Accessories</a></li>
+                          <li><a href="javascript:;">Televisions</a></li>
+                          <li><a href="javascript:;">Projectors</a></li>
+                          <li><a href="javascript:;">Blu-ray Players</a></li>
+                          <li><a href="javascript:;">Home Audio</a></li>
+                          <li><a href="javascript:;">Smart Home</a></li>
+                          <li><a href="javascript:;">VR Headsets</a></li>
+                          <li><a href="javascript:;">Media Streamers</a></li>
+                          <li><a href="javascript:;">Accessories</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="javascript:;">Cameras <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus">
+                        <ul class="list-unstyled">
+                          <li><a href="javascript:;">Camcorders</a></li>
+                          <li><a href="javascript:;">Digital SLRs</a></li>
+                          <li><a href="javascript:;">Point &amp; Shoot</a></li>
+                          <li><a href="javascript:;">Action Camcorders</a></li>
+                          <li><a href="javascript:;">Camera Drones</a></li>
+                          <li><a href="javascript:;">Camera Lenses</a></li>
+                          <li><a href="javascript:;">Optics</a></li>
+                          <li><a href="javascript:;">Accessories</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="javascript:;">Computers <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus" style="">
+                        <ul class="list-unstyled">
+                          <li><a href="javascript:;">Laptops</a></li>
+                          <li><a href="javascript:;">Desktops</a></li>
+                          <li><a href="javascript:;">Monitors</a></li>
+                          <li><a href="javascript:;">Networking</a></li>
+                          <li><a href="javascript:;">Components &amp; Parts</a></li>
+                          <li><a href="javascript:;">Printers &amp; Scanners</a></li>
+                          <li><a href="javascript:;">Drives &amp; Storage</a></li>
+                          <li><a href="javascript:;">Accessories</a></li>
                         </ul>
                       </div>
 
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=62_81">Cameras <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                    <li>
+                      <a href="javascript:;">Smartphones <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=81_182">Camcorders</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=81_183">Digital SLRs</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=81_184">Point &amp; Shoot</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=81_185">Action Camcorders</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=81_186">Camera Drones</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=81_187">Camera Lenses</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=81_188">Optics</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=81_189">Accessories</a></li>
+                          <li><a href="javascript:;">Smartphones</a></li>
+                          <li><a href="javascript:;">Bluetooth Headsets</a></li>
+                          <li><a href="javascript:;">Cases</a></li>
+                          <li><a href="javascript:;">Chargers</a></li>
+                          <li><a href="javascript:;">Accessories</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="javascript:;">Tablets <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus" style="">
+                        <ul class="list-unstyled">
+                          <li><a href="javascript:;">Tablets</a></li>
+                          <li><a href="javascript:;">Keyboards</a></li>
+                          <li><a href="javascript:;">Screen Protectors</a></li>
+                          <li><a href="javascript:;">Styluses</a></li>
+                          <li><a href="javascript:;">Chargers</a></li>
+                          <li><a href="javascript:;">Accessories</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="javascript:;">Headphones <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus" style="">
+                        <ul class="list-unstyled">
+                          <li><a href="javascript:;">Earbud Headphones</a></li>
+                          <li><a href="javascript:;">On-Ear Headphones</a></li>
+                          <li><a href="javascript:;">Bluetooth</a></li>
+                          <li><a href="javascript:;">Audiophile</a></li>
+                          <li><a href="javascript:;">Accessories</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="javascript:;">Video Games <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus" style="">
+                        <ul class="list-unstyled">
+                          <li><a href="javascript:;">Consoles</a></li>
+                          <li><a href="javascript:;">Games</a></li>
+                          <li><a href="javascript:;">Accessories</a></li>
                         </ul>
                       </div>
 
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=62_82">Computers <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                    <li>
+                      <a href="javascript:;">Car Electronics <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=82_190">Laptops</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=82_191">Desktops</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=82_192">Monitors</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=82_193">Networking</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=82_194">Components &amp; Parts</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=82_195">Printers &amp; Scanners</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=82_196">Drives &amp; Storage</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=82_197">Accessories</a></li>
+                          <li><a href="javascript:;">Car Audio</a></li>
+                          <li><a href="javascript:;">Car Video</a></li>
+                          <li><a href="javascript:;">Radar Detectors</a></li>
+                          <li><a href="javascript:;">Safety &amp; Security</a></li>
+                          <li><a href="javascript:;">CB Radios</a></li>
+                          <li><a href="javascript:;">Accessories</a></li>
                         </ul>
                       </div>
 
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=62_83">Smartphones <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                    <li>
+                      <a href="javascript:;">Smart Home <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=83_198">Smartphones</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=83_199">Bluetooth Headsets</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=83_200">Cases</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=83_201">Chargers</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=83_202">Accessories</a></li>
+                          <li><a href="javascript:;">Thermostats</a></li>
+                          <li><a href="javascript:;">Door Locks</a></li>
+                          <li><a href="javascript:;">Lighting</a></li>
+                          <li><a href="javascript:;">Security Cameras</a></li>
+                          <li><a href="javascript:;">Voice Assistants</a></li>
+                          <li><a href="javascript:;">Smart Modules</a></li>
+                          <li><a href="javascript:;">Accessories</a></li>
                         </ul>
                       </div>
-
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=62_171">Tablets <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
-                        <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=171_203">Tablets</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=171_204">Keyboards</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=171_205">Screen Protectors</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=171_206">Styluses</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=171_207">Chargers</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=171_208">Accessories</a></li>
-                        </ul>
-                      </div>
-
-                    </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=62_98">Headphones <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
-                        <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=98_209">Earbud Headphones</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=98_210">On-Ear Headphones</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=98_211">Bluetooth</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=98_212">Audiophile</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=98_213">Accessories</a></li>
-                        </ul>
-                      </div>
-
-                    </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=62_170">Video Games <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
-                        <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=170_214">Consoles</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=170_215">Games</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=170_216">Accessories</a></li>
-                        </ul>
-                      </div>
-
-                    </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=62_172">Car Electronics <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
-                        <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=172_217">Car Audio</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=172_218">Car Video</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=172_219">Radar Detectors</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=172_220">Safety &amp; Security</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=172_221">CB Radios</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=172_222">Accessories</a></li>
-                        </ul>
-                      </div>
-
-                    </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=62_173">Smart Home <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
-                        <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=173_223">Thermostats</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=173_224">Door Locks</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=173_225">Lighting</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=173_226">Security Cameras</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=173_228">Voice Assistants</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=173_227">Smart Modules</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=173_229">Accessories</a></li>
-                        </ul>
-                      </div>
-
-                    </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=62_66">Accessories </a>
-
-
-                    </li>
-
+                    <li><a href="javascript:;">Accessories </a></li>
                   </ul>
-                  <img src="dist/img/menu/menu_oc_cat_4-550x505.png" class="cat-img" title="" alt="" />
                 </div>
               </li>
               <li>
-                <a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=59">Sporting Goods <i class="fa fa-angle-right"></i></a>
-                <div class="dropdown-menus" style="min-width:500px;min-height:415px;">
+                <a href="javascript:;">Sporting Goods <i class="la la-angle-right"></i></a>
+                <div class="dropdown-menus">
                   <ul class="list-unstyled">
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=59_64">Cycling <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                    <li>
+                      <a href="javascript:;">Cycling <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=64_103">Mountain Bikes</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=64_104">Road Bikes</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=64_105">Electric Bikes</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=64_106">Urban Bikes</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=64_107">Vintage Bikes</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=64_127">For Kids</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=64_128">Parts &amp; Tools</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=64_129">Accessories</a></li>
+                          <li><a href="javascript:;">Mountain Bikes</a></li>
+                          <li><a href="javascript:;">Road Bikes</a></li>
+                          <li><a href="javascript:;">Electric Bikes</a></li>
+                          <li><a href="javascript:;">Urban Bikes</a></li>
+                          <li><a href="javascript:;">Vintage Bikes</a></li>
+                          <li><a href="javascript:;">For Kids</a></li>
+                          <li><a href="javascript:;">Parts &amp; Tools</a></li>
+                          <li><a href="javascript:;">Accessories</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="javascript:;">Fitness &amp; Running <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus" style="">
+                        <ul class="list-unstyled">
+                          <li><a href="javascript:;">Fitness Technology</a></li>
+                          <li><a href="javascript:;">Cardio Training</a></li>
+                          <li><a href="javascript:;">Strength Training</a></li>
+                          <li><a href="javascript:;">Fitness Clothing</a></li>
+                          <li><a href="javascript:;">Accessories</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="javascript:;">Team Sports <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus" style="">
+                        <ul class="list-unstyled">
+                          <li><a href="javascript:;">Baseball &amp; Softball</a></li>
+                          <li><a href="javascript:;">Basketball</a></li>
+                          <li><a href="javascript:;">Football</a></li>
+                          <li><a href="javascript:;">Tennis</a></li>
+                          <li><a href="javascript:;">Ice Hockey</a></li>
+                          <li><a href="javascript:;">Accessories</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="javascript:;">Outdoor Sports <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus" style="">
+                        <ul class="list-unstyled">
+                          <li><a href="javascript:;">Camping &amp; Hiking</a></li>
+                          <li><a href="javascript:;">Outdoor Clothing</a></li>
+                          <li><a href="javascript:;">Climbing</a></li>
+                          <li><a href="javascript:;">Tents</a></li>
+                          <li><a href="javascript:;">Accessories</a></li>
                         </ul>
                       </div>
 
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=59_67">Fitness &amp; Running <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                    <li>
+                      <a href="javascript:;">Water Sports <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=67_130">Fitness Technology</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=67_131">Cardio Training</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=67_132">Strength Training</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=67_133">Fitness Clothing</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=67_134">Accessories</a></li>
+                          <li><a href="javascript:;">Swimming</a></li>
+                          <li><a href="javascript:;">Kayaks</a></li>
+                          <li><a href="javascript:;">Surfboards</a></li>
+                          <li><a href="javascript:;">Kitesurfing</a></li>
+                          <li><a href="javascript:;">Wetsuits</a></li>
+                          <li><a href="javascript:;">Accessories</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="javascript:;">Winter Sports <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus" style="">
+                        <ul class="list-unstyled">
+                          <li><a href="javascript:;">Skiing</a></li>
+                          <li><a href="javascript:;">Snowboarding</a></li>
+                          <li><a href="javascript:;">Sledding</a></li>
+                          <li><a href="javascript:;">Ice Skating</a></li>
+                          <li><a href="javascript:;">Accessories</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="javascript:;">Indoor Games <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus" style="">
+                        <ul class="list-unstyled">
+                          <li><a href="javascript:;">Billiards</a></li>
+                          <li><a href="javascript:;">Darts</a></li>
+                          <li><a href="javascript:;">Table Tennis</a></li>
+                          <li><a href="javascript:;">Foosball</a></li>
+                          <li><a href="javascript:;">Bowling</a></li>
+                          <li><a href="javascript:;">Accessories</a></li>
                         </ul>
                       </div>
 
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=59_68">Team Sports <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                    <li>
+                      <a href="javascript:;">Camping &amp; Hiking <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=68_135">Baseball &amp; Softball</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=68_136">Basketball</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=68_137">Football</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=68_138">Tennis</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=68_139">Ice Hockey</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=68_140">Accessories</a></li>
+                          <li><a href="javascript:;">Tents</a></li>
+                          <li><a href="javascript:;">Bags</a></li>
+                          <li><a href="javascript:;">Camp Bedding</a></li>
+                          <li><a href="javascript:;">Camp Kitchen</a></li>
+                          <li><a href="javascript:;">Camp Clothing</a></li>
+                          <li><a href="javascript:;">Camp Footwear</a></li>
+                          <li><a href="javascript:;">Accessories</a></li>
                         </ul>
                       </div>
-
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=59_69">Outdoor Sports <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
-                        <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=69_141">Camping &amp; Hiking</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=69_142">Outdoor Clothing</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=69_143">Climbing</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=69_144">Tents</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=69_145">Accessories</a></li>
-                        </ul>
-                      </div>
-
-                    </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=59_70">Water Sports <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
-                        <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=70_146">Swimming</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=70_147">Kayaks</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=70_148">Surfboards</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=70_149">Kitesurfing</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=70_150">Wetsuits</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=70_151">Accessories</a></li>
-                        </ul>
-                      </div>
-
-                    </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=59_95">Winter Sports <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
-                        <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=95_152">Skiing</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=95_153">Snowboarding</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=95_155">Sledding</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=95_154">Ice Skating</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=95_156">Accessories</a></li>
-                        </ul>
-                      </div>
-
-                    </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=59_123">Indoor Games <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
-                        <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=123_157">Billiards</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=123_158">Darts</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=123_159">Table Tennis</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=123_160">Foosball</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=123_161">Bowling</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=123_162">Accessories</a></li>
-                        </ul>
-                      </div>
-
-                    </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=59_124">Camping &amp; Hiking <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
-                        <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=124_163">Tents</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=124_164">Bags</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=124_165">Camp Bedding</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=124_166">Camp Kitchen</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=124_167">Camp Clothing</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=124_168">Camp Footwear</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=124_169">Accessories</a></li>
-                        </ul>
-                      </div>
-
-                    </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=59_125">Skateboards </a>
-
-
-                    </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=59_126">Accessories </a>
-
-
-                    </li>
-
+                    <li><a href="javascript:;">Skateboards </a></li>
+                    <li><a href="javascript:;">Accessories </a></li>
                   </ul>
-                  <img src="dist/img/menu/menu_oc_cat_3-550x505.png" class="cat-img" title="" alt="" />
                 </div>
               </li>
               <li>
-                <a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=60">Clothing &amp; Shoes <i class="fa fa-angle-right"></i></a>
-                <div class="dropdown-menus" style="min-width:500px;min-height:415px;">
+                <a href="javascript:;">Clothing &amp; Shoes <i class="la la-angle-right"></i></a>
+                <div class="dropdown-menus">
                   <ul class="list-unstyled">
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=60_72">Woman <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                    <li>
+                      <a href="javascript:;">Woman <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=72_315">Jackets</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=72_316">Coats</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=72_317">Sweaters</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=72_318">Tops</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=72_319">Jeans</a></li>
+                          <li><a href="javascript:;">Jackets</a></li>
+                          <li><a href="javascript:;">Coats</a></li>
+                          <li><a href="javascript:;">Sweaters</a></li>
+                          <li><a href="javascript:;">Tops</a></li>
+                          <li><a href="javascript:;">Jeans</a></li>
                         </ul>
                       </div>
-
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=60_73">Man <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                    <li>
+                      <a href="javascript:;">Man <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=73_320">Jackets</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=73_321">Sweaters</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=73_322">T-Shirts</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=73_323">Jeans</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=73_324">Shorts</a></li>
+                          <li><a href="javascript:;">Jackets</a></li>
+                          <li><a href="javascript:;">Sweaters</a></li>
+                          <li><a href="javascript:;">T-Shirts</a></li>
+                          <li><a href="javascript:;">Jeans</a></li>
+                          <li><a href="javascript:;">Shorts</a></li>
                         </ul>
                       </div>
-
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=60_71">Kids &amp; Baby <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                    <li>
+                      <a href="javascript:;">Kids &amp; Baby <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=71_325">Jackets</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=71_326">Tops</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=71_327">Dresses</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=71_328">Shoes</a></li>
+                          <li><a href="javascript:;">Jackets</a></li>
+                          <li><a href="javascript:;">Tops</a></li>
+                          <li><a href="javascript:;">Dresses</a></li>
+                          <li><a href="javascript:;">Shoes</a></li>
                         </ul>
                       </div>
-
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=60_74">Shoes <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                    <li>
+                      <a href="javascript:;">Shoes <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=74_329">Women's Shoes</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=74_330">Men's Shoes</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=74_331">Accessories</a></li>
+                          <li><a href="javascript:;">Women's Shoes</a></li>
+                          <li><a href="javascript:;">Men's Shoes</a></li>
+                          <li><a href="javascript:;">Accessories</a></li>
                         </ul>
                       </div>
-
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=60_96">Jewelry <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                    <li>
+                      <a href="javascript:;">Jewelry <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=96_332">Diamond</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=96_333">Gold</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=96_334">Wedding</a></li>
+                          <li><a href="javascript:;">Diamond</a></li>
+                          <li><a href="javascript:;">Gold</a></li>
+                          <li><a href="javascript:;">Wedding</a></li>
                         </ul>
                       </div>
-
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=60_230">Watches <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                    <li>
+                      <a href="javascript:;">Watches <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=230_335">Women's Watches</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=230_336">Men's Watches</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=230_337">Kids' Watches</a></li>
+                          <li><a href="javascript:;">Women's Watches</a></li>
+                          <li><a href="javascript:;">Men's Watches</a></li>
+                          <li><a href="javascript:;">Kids' Watches</a></li>
                         </ul>
                       </div>
-
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=60_231">Handbags </a>
-
-
-                    </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=60_232">Wallets </a>
-
-
-                    </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=60_233">Vintage </a>
-
-
-                    </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=60_65">Accessories </a>
-
-
-                    </li>
-
+                    <li><a href="javascript:;">Handbags </a></li>
+                    <li><a href="javascript:;">Wallets </a></li>
+                    <li><a href="javascript:;">Vintage </a></li>
+                    <li><a href="javascript:;">Accessories </a></li>
                   </ul>
-                  <img src="dist/img/menu/menu_oc_cat_5-550x505.png" class="cat-img" title="" alt="" />
                 </div>
               </li>
               <li>
-                <a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=61">Kids &amp; Baby <i class="fa fa-angle-right"></i></a>
-                <div class="dropdown-menus" style="min-width:500px;min-height:415px;">
+                <a href="javascript:;">Kids &amp; Baby <i class="la la-angle-right"></i></a>
+                <div class="dropdown-menus">
                   <ul class="list-unstyled">
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=61_80">Toys <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                    <li>
+                      <a href="javascript:;">Toys <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=80_338">Action Figures</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=80_339">Arts &amp; Crafts</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=80_340">Building Toys</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=80_341">Dolls</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=80_342">Educational</a></li>
+                          <li><a href="javascript:;">Action Figures</a></li>
+                          <li><a href="javascript:;">Arts &amp; Crafts</a></li>
+                          <li><a href="javascript:;">Building Toys</a></li>
+                          <li><a href="javascript:;">Dolls</a></li>
+                          <li><a href="javascript:;">Educational</a></li>
                         </ul>
                       </div>
-
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=61_77">Health &amp; Safety <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                    <li>
+                      <a href="javascript:;">Health &amp; Safety <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=77_343">Monitors</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=77_346">Crib Netting</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=77_345">Kitchen</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=77_344">Bathroom</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=77_347">Outdoor</a></li>
+                          <li><a href="javascript:;">Monitors</a></li>
+                          <li><a href="javascript:;">Crib Netting</a></li>
+                          <li><a href="javascript:;">Kitchen</a></li>
+                          <li><a href="javascript:;">Bathroom</a></li>
+                          <li><a href="javascript:;">Outdoor</a></li>
                         </ul>
                       </div>
-
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=61_78">Puzzles <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                    <li>
+                      <a href="javascript:;">Puzzles <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=78_348">Floor Puzzles</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=78_349">3D Puzzles</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=78_350">Accessories</a></li>
+                          <li><a href="javascript:;">Floor Puzzles</a></li>
+                          <li><a href="javascript:;">3D Puzzles</a></li>
+                          <li><a href="javascript:;">Accessories</a></li>
                         </ul>
                       </div>
-
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=61_79">Strollers <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                    <li>
+                      <a href="javascript:;">Strollers <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=79_351">Strollers</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=79_352">Stroller Parts</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=79_353">Accessories</a></li>
+                          <li><a href="javascript:;">Strollers</a></li>
+                          <li><a href="javascript:;">Stroller Parts</a></li>
+                          <li><a href="javascript:;">Accessories</a></li>
                         </ul>
                       </div>
-
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=61_76">Games <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                    <li>
+                      <a href="javascript:;">Games <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=76_354">Board Games</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=76_355">Card Games</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=76_356">Electronic</a></li>
+                          <li><a href="javascript:;">Board Games</a></li>
+                          <li><a href="javascript:;">Card Games</a></li>
+                          <li><a href="javascript:;">Electronic</a></li>
                         </ul>
                       </div>
-
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=61_97">Hobbies <i class="fa fa-angle-right"></i></a>
-
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                    <li>
+                      <a href="javascript:;">Hobbies <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=97_357">Models &amp; Kits</a></li>
-                          <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=97_358">Trains</a></li>
+                          <li><a href="javascript:;">Models &amp; Kits</a></li>
+                          <li><a href="javascript:;">Trains</a></li>
                         </ul>
                       </div>
-
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=61_234">Educational </a>
-
-
-                    </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=61_235">Models &amp; Kits </a>
-
-
-                    </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=61_236">Radio Control </a>
-
-
-                    </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=61_237">Action Figures </a>
-
-
-                    </li>
-
+                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=61_234">Educational </a></li>
+                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=61_235">Models &amp; Kits </a></li>
+                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=61_236">Radio Control </a></li>
+                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=61_237">Action Figures </a></li>
                   </ul>
-                  <img src="dist/img/menu/menu_oc_cat_6-550x505.png" class="cat-img" title="" alt="" />
                 </div>
               </li>
               <li>
-                <a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=63">Home &amp; Garden <i class="fa fa-angle-right"></i></a>
-                <div class="dropdown-menus" style="min-width:500px;min-height:415px;">
+                <a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=63">Home &amp; Garden <i class="la la-angle-right"></i></a>
+                <div class="dropdown-menus">
                   <ul class="list-unstyled">
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=63_85">Bedding <i class="fa fa-angle-right"></i></a>
+                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=63_85">Bedding <i class="la la-angle-right"></i></a>
 
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
                           <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=85_359">Bed Pillows</a></li>
                           <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=85_360">Blankets</a></li>
@@ -485,9 +420,9 @@
                       </div>
 
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=63_86">Food <i class="fa fa-angle-right"></i></a>
+                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=63_86">Food <i class="la la-angle-right"></i></a>
 
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
                           <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=86_364">Bread</a></li>
                           <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=86_365">Pasta</a></li>
@@ -500,9 +435,9 @@
                       </div>
 
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=63_87">Furniture <i class="fa fa-angle-right"></i></a>
+                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=63_87">Furniture <i class="la la-angle-right"></i></a>
 
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
                           <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=87_371">Tables</a></li>
                           <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=87_372">Chairs</a></li>
@@ -514,9 +449,9 @@
                       </div>
 
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=63_88">Lighting <i class="fa fa-angle-right"></i></a>
+                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=63_88">Lighting <i class="la la-angle-right"></i></a>
 
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
                           <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=88_377">Lamps</a></li>
                           <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=88_378">Chandeliers</a></li>
@@ -526,9 +461,9 @@
                       </div>
 
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=63_89">Tools <i class="fa fa-angle-right"></i></a>
+                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=63_89">Tools <i class="la la-angle-right"></i></a>
 
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
                           <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=89_381">Power Tools</a></li>
                           <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=89_382">Hand Tools</a></li>
@@ -538,9 +473,9 @@
                       </div>
 
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=63_99">Home Décor <i class="fa fa-angle-right"></i></a>
+                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=63_99">Home Décor <i class="la la-angle-right"></i></a>
 
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
                           <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=99_385">Candle Holders</a></li>
                           <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=99_386">Clocks</a></li>
@@ -568,16 +503,15 @@
                     </li>
 
                   </ul>
-                  <img src="dist/img/menu/menu_oc_cat_2-550x505.png" class="cat-img" title="" alt="" />
                 </div>
               </li>
               <li>
-                <a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=75">Beauty &amp; Health <i class="fa fa-angle-right"></i></a>
-                <div class="dropdown-menus" style="min-width:500px;min-height:415px;">
+                <a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=75">Beauty &amp; Health <i class="la la-angle-right"></i></a>
+                <div class="dropdown-menus">
                   <ul class="list-unstyled">
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=75_90">Perfumes <i class="fa fa-angle-right"></i></a>
+                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=75_90">Perfumes <i class="la la-angle-right"></i></a>
 
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
                           <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=90_389">Women's Perfumes</a></li>
                           <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=90_390">Men's Perfumes</a></li>
@@ -586,9 +520,9 @@
                       </div>
 
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=75_91">Makeup <i class="fa fa-angle-right"></i></a>
+                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=75_91">Makeup <i class="la la-angle-right"></i></a>
 
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
                           <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=91_392">Face</a></li>
                           <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=91_393">Eyes</a></li>
@@ -599,9 +533,9 @@
                       </div>
 
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=75_92">Skin Care <i class="fa fa-angle-right"></i></a>
+                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=75_92">Skin Care <i class="la la-angle-right"></i></a>
 
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
                           <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=92_397">Cleansers</a></li>
                           <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=92_398">Toners</a></li>
@@ -610,9 +544,9 @@
                       </div>
 
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=75_93">Hair Care <i class="fa fa-angle-right"></i></a>
+                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=75_93">Hair Care <i class="la la-angle-right"></i></a>
 
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
                           <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=93_400">Shampoos</a></li>
                           <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=93_401">Hair Styling</a></li>
@@ -622,9 +556,9 @@
                       </div>
 
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=75_94">Sun Care <i class="fa fa-angle-right"></i></a>
+                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=75_94">Sun Care <i class="la la-angle-right"></i></a>
 
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
                           <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=94_404">Sunscreen</a></li>
                           <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=94_405">Tanning Lotion</a></li>
@@ -633,9 +567,9 @@
                       </div>
 
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=75_242">Nail Care <i class="fa fa-angle-right"></i></a>
+                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=75_242">Nail Care <i class="la la-angle-right"></i></a>
 
-                      <div class="dropdown-menus" style="background: none;box-shadow: none;">
+                      <div class="dropdown-menus" style="">
                         <ul class="list-unstyled">
                           <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=242_407">Manicure</a></li>
                           <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=242_408">Pedicure</a></li>
@@ -663,14 +597,13 @@
                     </li>
 
                   </ul>
-                  <img src="dist/img/menu/menu_oc_cat_7-550x505.png" class="cat-img" title="" alt="" />
                 </div>
               </li>
               <li>
-                <a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=246">Books &amp; Audible <i class="fa fa-angle-right"></i></a>
+                <a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=246">Books &amp; Audible <i class="la la-angle-right"></i></a>
                 <div class="dropdown-menus" >
                   <ul class="list-unstyled">
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=246_254">Arts <i class="fa fa-angle-right"></i></a>
+                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=246_254">Arts <i class="la la-angle-right"></i></a>
 
                       <div class="dropdown-menus" >
                         <ul class="list-unstyled">
@@ -683,7 +616,7 @@
                       </div>
 
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=246_255">Biographies <i class="fa fa-angle-right"></i></a>
+                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=246_255">Biographies <i class="la la-angle-right"></i></a>
 
                       <div class="dropdown-menus" >
                         <ul class="list-unstyled">
@@ -694,7 +627,7 @@
                       </div>
 
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=246_256">Children's Books <i class="fa fa-angle-right"></i></a>
+                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=246_256">Children's Books <i class="la la-angle-right"></i></a>
 
                       <div class="dropdown-menus" >
                         <ul class="list-unstyled">
@@ -705,7 +638,7 @@
                       </div>
 
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=246_257">Cookbooks <i class="fa fa-angle-right"></i></a>
+                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=246_257">Cookbooks <i class="la la-angle-right"></i></a>
 
                       <div class="dropdown-menus" >
                         <ul class="list-unstyled">
@@ -716,7 +649,7 @@
                       </div>
 
                     </li>
-                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=246_258">History <i class="fa fa-angle-right"></i></a>
+                    <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=246_258">History <i class="la la-angle-right"></i></a>
 
                       <div class="dropdown-menus" >
                         <ul class="list-unstyled">
@@ -756,7 +689,7 @@
                 </div>
               </li>
               <li>
-                <a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=247">Movies &amp; Music <i class="fa fa-angle-right"></i></a>
+                <a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=247">Movies &amp; Music <i class="la la-angle-right"></i></a>
                 <div class="dropdown-menus" >
                   <ul class="list-unstyled">
                     <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=247_265">Movies </a>
@@ -805,7 +738,7 @@
                 </div>
               </li>
               <li>
-                <a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=248">Musical Instruments <i class="fa fa-angle-right"></i></a>
+                <a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=248">Musical Instruments <i class="la la-angle-right"></i></a>
                 <div class="dropdown-menus" >
                   <ul class="list-unstyled">
                     <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=248_275">Guitars </a>
@@ -854,7 +787,7 @@
                 </div>
               </li>
               <li>
-                <a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=249">Handmade <i class="fa fa-angle-right"></i></a>
+                <a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=249">Handmade <i class="la la-angle-right"></i></a>
                 <div class="dropdown-menus" >
                   <ul class="list-unstyled">
                     <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=249_285">Jewelry </a>
@@ -903,7 +836,7 @@
                 </div>
               </li>
               <li>
-                <a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=250">Organic &amp; Natural <i class="fa fa-angle-right"></i></a>
+                <a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=250">Organic &amp; Natural <i class="la la-angle-right"></i></a>
                 <div class="dropdown-menus" >
                   <ul class="list-unstyled">
                     <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=250_295">Fruit &amp; Vegetables </a>
@@ -952,7 +885,7 @@
                 </div>
               </li>
               <li>
-                <a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=251">Automotive <i class="fa fa-angle-right"></i></a>
+                <a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=251">Automotive <i class="la la-angle-right"></i></a>
                 <div class="dropdown-menus" >
                   <ul class="list-unstyled">
                     <li><a href="http://getcart.321cart.com/sport/index.php?route=product/category&amp;path=251_305">Automotive Parts </a>
@@ -1001,218 +934,61 @@
                 </div>
               </li>
             </ul>
-
-            <div id="menu-categories-custom-block-bottom-wrapper" class="menu-categories-custom-block">
-              <div class="menu-categories-custom-block-links">
-                <a href="#"><span style="color: #6a7b8e;">Shop</span> <span style="color: #01ECAA;">Cyber Monday Deals</span></a>
-                <a href="#"><span style="color: #6a7b8e;">Tech Gift Guide</span> <span style="color: #00DFFF;">for him</span></a>
-                <a href="#"><span style="color: #00DFFF;">Explore</span> <span style="color: #6a7b8e;">Holiday Toy List</span></a>
-                <a href="#"><span style="color: #6a7b8e;">All Hot</span> <span style="color: #f93e66;">Specials &amp; Deals</span></a>
-              </div>
-            </div>
           </div>
         </li>
         <!-- Categories Vertical 2 Style - END -->
 
         <!-- Brands -->
         <li id="menu_brands">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop by Brands <i class="fa fa-angle-down"></i></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop by Brands <i class="la la-angle-down"></i></a>
           <div class="dropdown-menus col-sm-12 logoname">
             <div class="container">
-              <div class="slds-grid slds-grid_vertical-align-center slds-wrap slds-gutters_x-small">
-                <div class="brand-item slds-col slds-size_1-of-12">
-                  <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=15">
+              <div class="row align-items-center">
+                <?php for($i = 0; $i<18; $i++) { ?>
+                <div class="col-sm-12 col-md-1">
+                  <a href="javascript:;">
                     <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
                     <div class="name">Sample Brand</div>
                   </a>
                 </div>
-                <div class="brand-item slds-col slds-size_1-of-12">
-                  <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=34">
-                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
-                    <div class="name">Sample Brand</div>
-                  </a>
-                </div>
-                <div class="brand-item slds-col slds-size_1-of-12">
-                  <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=21">
-                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
-                    <div class="name">Sample Brand</div>
-                  </a>
-                </div>
-                <div class="brand-item slds-col slds-size_1-of-12">
-                  <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=27">
-                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
-                    <div class="name">Sample Brand</div>
-                  </a>
-                </div>
-                <div class="brand-item slds-col slds-size_1-of-12">
-                  <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=14">
-                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
-                    <div class="name">Sample Brand</div>
-                  </a>
-                </div>
-                <div class="brand-item slds-col slds-size_1-of-12">
-                  <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=33">
-                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
-                    <div class="name">Sample Brand</div>
-                  </a>
-                </div>
-                <div class="brand-item slds-col slds-size_1-of-12">
-                  <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=20">
-                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
-                    <div class="name">Sample Brand</div>
-                  </a>
-                </div>
-                <div class="brand-item slds-col slds-size_1-of-12">
-                  <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=26">
-                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
-                    <div class="name">Sample Brand</div>
-                  </a>
-                </div>
-                <div class="brand-item slds-col slds-size_1-of-12">
-                  <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=13">
-                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
-                    <div class="name">Sample Brand</div>
-                  </a>
-                </div>
-                <div class="brand-item slds-col slds-size_1-of-12">
-                  <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=32">
-                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
-                    <div class="name">Sample Brand</div>
-                  </a>
-                </div>
-                <div class="brand-item slds-col slds-size_1-of-12">
-                  <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=19">
-                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
-                    <div class="name">Sample Brand</div>
-                  </a>
-                </div>
-                <div class="brand-item slds-col slds-size_1-of-12">
-                  <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=25">
-                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
-                    <div class="name">Sample Brand</div>
-                  </a>
-                </div>
-                <div class="brand-item slds-col slds-size_1-of-12">
-                  <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=12">
-                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
-                    <div class="name">Sample Brand</div>
-                  </a>
-                </div>
-                <div class="brand-item slds-col slds-size_1-of-12">
-                  <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=31">
-                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
-                    <div class="name">Sample Brand</div>
-                  </a>
-                </div>
-                <div class="brand-item slds-col slds-size_1-of-12">
-                  <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=18">
-                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
-                    <div class="name">Sample Brand</div>
-                  </a>
-                </div>
-                <div class="brand-item slds-col slds-size_1-of-12">
-                  <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=24">
-                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
-                    <div class="name">Sample Brand</div>
-                  </a>
-                </div>
-                <div class="brand-item slds-col slds-size_1-of-12">
-                  <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=11">
-                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
-                    <div class="name">Sample Brand</div>
-                  </a>
-                </div>
-                <div class="brand-item slds-col slds-size_1-of-12">
-                  <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=30">
-                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
-                    <div class="name">Sample Brand</div>
-                  </a>
-                </div>
-                <div class="brand-item slds-col slds-size_1-of-12">
-                  <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=17">
-                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
-                    <div class="name">Sample Brand</div>
-                  </a>
-                </div>
-                <div class="brand-item slds-col slds-size_1-of-12">
-                  <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=23">
-                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
-                    <div class="name">Sample Brand</div>
-                  </a>
-                </div>
-                <div class="brand-item slds-col slds-size_1-of-12">
-                  <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=29">
-                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
-                    <div class="name">Sample Brand</div>
-                  </a>
-                </div>
-                <div class="brand-item slds-col slds-size_1-of-12">
-                  <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=16">
-                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
-                    <div class="name">Sample Brand</div>
-                  </a>
-                </div>
-                <div class="brand-item slds-col slds-size_1-of-12">
-                  <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=22">
-                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
-                    <div class="name">Sample Brand</div>
-                  </a>
-                </div>
-                <div class="brand-item slds-col slds-size_1-of-12">
-                  <a href="http://getcart.321cart.com/sport/index.php?route=product/manufacturer/info&amp;manufacturer_id=28">
-                    <div class="image"><img src="dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
-                    <div class="name">Sample Brand</div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </li>
-
-        <!-- Custom Blocks -->
-        <li class="menu_custom_block">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Custom Blocks <i class="fa fa-angle-down"></i></a>
-          <div class="dropdown-menus col-sm-12">
-            <div class="container">
-              <div class="col-sm-12">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non dui at sapien tempor gravida ut vel arcu. Maecenas odio arcu, feugiat vel congue feugiat, laoreet vitae diam. In hac habitasse platea dictumst. Morbi consectetur nunc porta ligula tempor et varius nibh sollicitudin. Mauris risus felis, adipiscing eu consequat ac, aliquam vel urna. Duis bibendum sapien nec mi egestas tempor. Pellentesque sem augue, elementum sit amet commodo quis, auctor in erat. Etiam at elit orci. Etiam dapibus mauris placerat nulla sagittis suscipit. Nullam ac eros eros, et ullamcorper leo. Proin placerat nunc sed magna mattis dapibus. Donec vitae risus id ante fringilla eleifend vel eu sem. Maecenas eros tellus, iaculis a fermentum a, ultrices dictum purus. Aliquam erat volutpat. Pellentesque viverra arcu vel est sodales ac lobortis velit fringilla. <br><br>Phasellus ipsum tortor, venenatis eu ullamcorper et, imperdiet quis nisi. Sed ultrices velit ut lacus viverra ornare. Nam adipiscing ullamcorper arcu, in tincidunt leo tempor non. Maecenas adipiscing nulla eget est malesuada molestie. Proin et lorem lectus, ac eleifend nunc. Duis commodo imperdiet viverra. Aenean nec interdum magna. Fusce ullamcorper ipsum at nibh eleifend at pulvinar sapien egestas. Proin nec augue id turpis consequat iaculis vitae quis dui. Maecenas fermentum est vel felis aliquet vitae pulvinar augue iaculis. Duis felis lacus, lacinia at luctus non, elementum fermentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam condimentum metus a urna tempus vel sollicitudin lacus pharetra. Vestibulum tincidunt, magna vel porta hendrerit, mi purus rhoncus odio, sit amet venenatis orci urna a ligula. <br><br>Aenean egestas congue est, nec convallis nunc viverra ac. Duis sit amet mattis quam. Nulla imperdiet tincidunt lorem ac ornare. Nulla pellentesque, velit eu volutpat ornare, justo sem blandit ante, et eleifend lacus mauris sed risus. Phasellus nec libero purus, a dignissim neque. Nunc vestibulum, purus eu feugiat lobortis, dolor velit suscipit lacus, a pretium tortor velit id dui. Sed pulvinar sodales sapien. Phasellus leo erat, laoreet vel luctus sit amet, fermentum egestas lacus. Curabitur non ligula odio, at bibendum tortor. Suspendisse ullamcorper dignissim quam, quis vulputate sem porttitor sit amet. Duis eget tortor tortor. Mauris ornare lorem at sapien placerat non sollicitudin libero posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque nec tellus sed nisl cursus iaculis vel vel ante. Nam in nisl justo, ut rhoncus libero.  <br><br>Duis bibendum sapien nec mi egestas tempor. Pellentesque sem augue, elementum sit amet commodo quis, auctor in erat. Etiam at elit orci. Etiam dapibus mauris placerat nulla sagittis suscipit. Nullam ac eros eros, et ullamcorper leo. Proin placerat nunc sed magna mattis dapibus. Donec vitae risus id ante fringilla eleifend vel eu sem. Maecenas eros tellus, iaculis a fermentum a, ultrices dictum purus. <br><br>Integer sit amet nisi ante. Duis commodo, dolor a ullamcorper tincidunt, mi velit dignissim tellus, eget mattis risus nibh eget enim. Quisque quis ligula ac justo dictum posuere at sit amet ipsum. Phasellus nisl sapien, tincidunt quis consectetur eu, ullamcorper sit amet nisi. Donec a risus a arcu tempor pellentesque in eu dui. Ut sit amet magna arcu. Cras id purus leo, vitae mattis urna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. <br><br>Mauris ut feugiat leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean quis quam orci. Quisque dictum suscipit quam. Curabitur id lacus id felis auctor dictum. Nulla nisl felis, cursus quis accumsan eget, consectetur sed tortor. Proin imperdiet ultricies lorem non laoreet. Phasellus sed pretium mi. Sed fermentum placerat libero nec semper.</p>
+                <?php } ?>
               </div>
             </div>
           </div>
         </li>
 
         <!-- Custom Dropdown Menus -->
-        <li class="menu_custom_menu">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Custom Dropdowns <i class="fa fa-angle-down"></i></a>
+        <li class="menu_oc">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Custom Dropdowns <i class="la la-angle-down"></i></a>
           <div class="dropdown-menus">
             <ul class="list-unstyled">
               <li>
-                <a href="#" target="_self">
+                <a href="javascript:;" target="_self">
                   What's new
                 </a>
               </li>
               <li>
-                <a href="#" target="_self">
+                <a href="javascript:;" target="_self">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#" target="_self">
+                <a href="javascript:;" target="_self">
                   Contact Us
                 </a>
               </li>
               <li>
-                <a href="#" target="_self">
+                <a href="javascript:;" target="_self">
                   LookBook
                 </a>
               </li>
               <li>
-                <a href="#" target="_self">
+                <a href="javascript:;" target="_self">
                   Trends
                 </a>
               </li>
               <li>
-                <a href="#" target="_self">
+                <a href="javascript:;" target="_self">
                   FAQs
                 </a>
               </li>
@@ -1220,17 +996,8 @@
           </div>
         </li>
 
-        <!-- Custom Links -->
-
-        <li class="menu_links">
-          <a href="#" target="_self">
-            Custom Links
-          </a>
-        </li>
-
         <li class="menu_links">
           <a href="#" target="_blank">
-            <span id="menu_label6" class="menu_label" style="background-color:#00DFFF;">Hot</span>
             What's new
           </a>
         </li>
@@ -1243,49 +1010,7 @@
 
         <li class="menu_links">
           <a href="#" target="_self">
-            Buy GetCart Theme
-          </a>
-        </li>
-
-        <li class="menu_links">
-          <a href="#" target="_self">
             About Us
-          </a>
-        </li>
-
-        <li class="menu_links">
-          <a href="#" target="_self">
-            Delivery Information
-          </a>
-        </li>
-
-        <li class="menu_links">
-          <a href="#" target="_self">
-            Payment Security
-          </a>
-        </li>
-
-        <li class="menu_links">
-          <a href="#" target="_self">
-            Privacy Policy
-          </a>
-        </li>
-
-        <li class="menu_links">
-          <a href="#" target="_self">
-            Delivery Information
-          </a>
-        </li>
-
-        <li class="menu_links">
-          <a href="#" target="_self">
-            Payment Security
-          </a>
-        </li>
-
-        <li class="menu_links">
-          <a href="#" target="_self">
-            Privacy Policy
           </a>
         </li>
 
