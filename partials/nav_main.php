@@ -996,10 +996,33 @@
           </div>
         </li>
 
-        <li class="menu_links">
-          <a href="#" target="_blank">
-            What's new
-          </a>
+        <li class="menu_oc">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Components <i class="la la-angle-down"></i></a>
+          <div class="dropdown-menus" style="min-height: 200px;">
+            <ul class="list-unstyled">
+              <li>
+                <a href="javascript:;">Buttons <i class="la la-angle-right"></i></a>
+                <div class="dropdown-menus">
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="javascript:;">Button Base <i class="la la-angle-right"></i></a>
+                      <div class="dropdown-menus">
+                        <ul class="list-unstyled">
+                          <li><a href="javascript:;">Default Style</a></li>
+                          <li><a href="javascript:;">Square Style</a></li>
+                          <li><a href="javascript:;">Pill Style</a></li>
+                          <li><a href="javascript:;">Air Style</a></li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li><a href="javascript:;">Button Group</a></li>
+                    <li><a href="javascript:;">Button Dropdown</a></li>
+                    <li><a href="javascript:;">Button Icon</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
         </li>
 
         <li class="menu_links">

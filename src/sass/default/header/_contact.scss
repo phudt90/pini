@@ -1,0 +1,118 @@
+/* Contact Block */
+.contact-block {
+  background-color: #242424;
+  color: #fff;
+
+  > li > div {
+    padding: 0 30px;
+  }
+
+  .contact-title {
+    position: relative;
+    margin: 0;
+    min-height: 65px;
+    line-height: 65px;
+    overflow: hidden;
+    border-bottom: 1px solid #2A2A2A;
+
+    .h4 {
+      margin: 0;
+      line-height: 65px;
+    }
+  }
+
+  .contact-links {
+    .la {
+      display: inline-block;
+    }
+
+    a.btn {
+      margin-left: 10px;
+      border-radius: 4px;
+    }
+  }
+}
+
+.contact-block + .dropdown-menu .contact-links a.btn-primary {
+  margin-left: 10px;
+}
+.contact-block .lnr {
+  font-size: 24px;
+  line-height: 14px;
+}
+#contact-block-down {
+  width: 22px;
+  height: 22px;
+  line-height: 18px;
+  position: absolute;
+  bottom: 26px;
+  right: 1px;
+  transition: all 0.15s ease-in 0s;
+}
+#contact-block-down i {
+  font-size: 14px;
+  line-height: 18px;
+}
+.contact-block + .dropdown-menu {
+  min-width: 800px;
+  margin-top: 80px;
+  padding: 0;
+  overflow: hidden;
+  z-index: 1001;
+}
+
+.contact-block + .dropdown-menu .contact-title-content .lnr {
+  float: left;
+  font-size: 24px;
+  line-height: 65px;
+  margin-right: 15px;
+}
+.contact-block + .dropdown-menu .contact-details {
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.contact-block + .dropdown-menu .contact-details h2 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding-bottom: 0;
+  text-align: left;
+}
+.contact-block + .dropdown-menu .contact-details h2:before {
+  border-bottom: none;
+}
+.contact-block + .dropdown-menu .contact-details h3 {
+  margin-top: 10px;
+  text-align: left;
+}
+.contact-block + .dropdown-menu .contact-details h4 {
+  margin-bottom: 30px;
+}
+
+.contact-block + .dropdown-menu .contact-details .col-sm-6 {
+  margin: 0 0 15px;
+}
+.contact-block + .dropdown-menu .contact-details span {
+  float: left;
+  width: 100%;
+}
+.contact-block + .dropdown-menu .consultant img {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+.contact-block + .dropdown-menu .consultant span.consultant-details {
+  float: left;
+  width: calc(100% - 105px);
+  padding-top: 10px;
+}
+.contact-block + .dropdown-menu .consultant span.consultant-phone {
+  font-size: 18px;
+  line-height: 1.3;
+}
+.contact-block + .dropdown-menu .comment {
+  text-align: center;
+  padding: 20px 15px;
+}

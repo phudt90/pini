@@ -9,3 +9,63 @@
 
   }
 }
+
+.header-widgets {
+  position: relative;
+  display: flex;
+
+  .buttons-header {
+    position: static;
+    width: 52px;
+    height: 46px;
+    padding: 0;
+    margin: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    &.dropdown {
+      .dropdown-toggle {
+        position: relative;
+        display: block;
+        padding: 0;
+        text-align: center;
+        border: 0;
+
+        > .la {
+          color: #ffffff;
+          display: block;
+          font-size: 25px;
+          line-height: 46px;
+        }
+
+        .button-i {
+          width: 22px;
+          height: 22px;
+          line-height: 18px;
+          position: absolute;
+          bottom: 26px;
+          right: 1px;
+          background-color: #79828C;
+          border: 2px solid #1B1B1B;
+          border-radius: 25px;
+          transition: all 0.15s ease-in 0s;
+
+          > i {
+            font-size: 11px;
+            line-height: 18px;
+            color: #ffffff;
+          }
+        }
+      }
+
+      .dropdown-menu {
+        min-width: 800px;
+        margin-top: 10px;
+        padding: 0;
+        border-radius: 10px;
+        overflow: hidden;
+        z-index: 4001;
+      }
+    }
+  }
+}

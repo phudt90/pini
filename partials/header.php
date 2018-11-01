@@ -4,15 +4,18 @@
 
   <div class="m-header__main">
     <div class="container">
-      <div class="row">
+      <div class="row align-items-center">
         <div class="col-xs-6 col-md-3">
           <?php include 'header/logo.php'; ?>
         </div>
         <div class="col-md-5">
-          header search
+          <?php include 'header/search.php'; ?>
         </div>
         <div class="col-xs-3 col-md-4">
-          header right items
+          <div class="header-widgets">
+            <?php include 'header/contact.php'; ?>
+            <?php include 'header/contact.php'; ?>
+          </div>
         </div>
       </div>
     </div>
