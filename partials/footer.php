@@ -1,3 +1,4 @@
+<?php $basePath  = "http://" . $_SERVER['SERVER_NAME'] ?>
 <footer>
   <div class="newsletter">
     <div class="container">
@@ -88,5 +89,5 @@
     </div>
   </div>
 </footer>
-<script src="./dist/assets/vendors/base/vendors.bundle.js"></script>
-<script src="./dist/assets/default/base/scripts.bundle.js"></script>
+<script src="<?php echo $basePath ?>/dist/assets/vendors/base/vendors.bundle.js"></script>
+<script src="<?php echo $basePath ?>/dist/assets/default/base/scripts.bundle.js"></script>

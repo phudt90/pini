@@ -92,7 +92,8 @@
               "{$config.path.src}/sass/default/style.scss"
             ],
             "scripts": [
-              "{$config.path.src}/js/framework/base/util.js"
+              "{$config.path.src}/js/framework/base/util.js",
+              "{$config.path.src}/js/framework/components/general/**/*.js"
             ]
           },
           "bundle": {

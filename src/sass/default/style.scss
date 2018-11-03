@@ -7,7 +7,13 @@
 ////////////////////////////////////////////////////////////////
 
 // Framework Config
+@import "framework-config";  // demo level framework config override
 @import "../framework/config";
+@import "../framework/vendors/bootstrap/variables"; // bootstrap override config
+
+//== 2: Framework Components Config
+@import "../framework/components/base/config";
+@import "../framework/components/general/config";
 
 // Breakpoint Include
 @import "../framework/vendors/breakpoint/breakpoint.scss";
@@ -24,13 +30,19 @@
 ////////////////////////////////////////////////////////////////
 
 // Layout Config
+@import "base/config";
 @import "header/config";
 
 // Layout
 @import "base/page";
+@import "base/body";
 
 @import "header/header";
 @import "header/logo";
 @import "header/search";
 @import "header/contact";
+@import "header/cart";
+
 @import "menu-header/menu";
+
+@import "panel/panel";

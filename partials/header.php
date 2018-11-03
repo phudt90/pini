@@ -14,7 +14,8 @@
         <div class="col-xs-3 col-md-4">
           <div class="header-widgets">
             <?php include 'header/contact.php'; ?>
-            <?php include 'header/contact.php'; ?>
+
+            <?php include 'header/cart.php'; ?>
           </div>
         </div>
       </div>
@@ -24,5 +25,5 @@
   <?php include 'nav_main.php' ?>
 </header>
 
-<div id="menu-fix"></div>
+<div id="menu-fix" style="height:106px;max-height:106px;"></div>
 <?php //include 'nav_mobile.php'; ?>
