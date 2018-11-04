@@ -11,19 +11,19 @@
       <div class="contact-title">
         <div class="row align-items-center">
           <div class="col-sm-6">
-            <div class="contact-title-content h4">
+            <div class="contact-title-content h6">
               <span class="la la-phone"></span> Liên hệ Ắc quy Nguyễn Hòa
             </div>
           </div>
           <div class="col-sm-6">
             <div class="text-right contact-links">
-              <a href="javascript:;" class="btn btn-secondary m-btn m-btn--icon" target="_blank">
+              <a href="javascript:;" class="btn btn-sm btn-secondary m-btn m-btn--icon" target="_blank">
                 <span>
                   <i class="la la-map-marker"></i>
                   <span>Tìm đường đi</span>
                 </span>
               </a>
-              <a href="javascript:;" class="btn btn-warning m-btn m-btn--icon">
+              <a href="javascript:;" class="btn btn-sm btn-warning m-btn m-btn--icon">
                 <span>
                   <i class="la la-envelope"></i>
                   <span>Gửi yêu cầu</span>
@@ -38,7 +38,7 @@
       <div class="contact-details">
         <div class="row">
           <div class="col-sm-12">
-            <h2>Uy tín là danh dự</h2>
+            <h3>Uy tín là danh dự</h3>
             <h4>Chúng tôi cung cấp dịch vụ chất lượng tốt nhất</h4>
           </div>
         </div>
@@ -72,7 +72,7 @@
         <div class="consultants">
           <div class="row">
             <div class="col-sm-4">
-              <h4>Nhân viên bán hàng 1</h4>
+              <h4>Nhân viên bán hàng</h4>
               <div class="consultant m-stack m-stack--ver m-stack--general">
                 <div class="m-stack__item m-stack__item--middle">
                   <img src="<?php echo $basePath ?>/dist/assets/media/img/catalog/consultant.png" title="Michael Johnson" alt="Michael Johnson">

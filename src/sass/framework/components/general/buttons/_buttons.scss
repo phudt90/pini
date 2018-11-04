@@ -8,6 +8,7 @@ $m-pill-radius: 60px;
 @mixin m-build-component--buttons-base() {
   // base button
   .btn {
+    font-size: array-get($m--buttons, layout, default, default, self, font-size);
     font-family: array-get($m--font-families, regular);
     box-shadow: none !important;
 

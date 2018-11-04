@@ -82,7 +82,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
-          &copy; Copyright 2018 <a href="javascript:;" target="_blank">GetCart Theme</a> by 321cart. <br>
+          &copy; Copyright 2018 <a href="javascript:;" target="_blank">Ac Quy Nguyen Hoa</a> <br>
           <span class="small">This is a CMS block edited from theme admin panel. You can insert text, images or HTML here.</span>
         </div>
       </div>

@@ -1,0 +1,17 @@
+.category-list {
+
+  .category-list-item {
+    margin: 10px 0;
+
+    a {
+      color: #2D364C;
+      font-size: 0.9375rem;
+      font-weight: 500;
+      text-decoration: none;
+
+      &:hover {
+        color: array-get($m--state-colors, brand, base);
+      }
+    }
+  }
+}

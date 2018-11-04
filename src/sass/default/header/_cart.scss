@@ -1,0 +1,126 @@
+.cart-content {
+  min-width: 320px;
+  overflow: hidden;
+  color: #fff;
+  background-color: #242424;
+  border-radius: 10px!important;
+
+  > li > div {
+    padding: 0 25px;
+  }
+
+  > li:not(:last-child) {
+    border-bottom: 1px solid #2A2A2A;
+  }
+
+  .cart-total {
+    .cart-total-title {
+      min-height: 65px;
+      line-height: 65px;
+      padding: 0 5px 0 15px;
+      margin: 0;
+    }
+
+    .cart-total-icon {
+      color: #999;
+      font-size: 1.875rem;
+    }
+  }
+
+  .cart-products {
+    .table {
+      width: 100%;
+      max-width: 100%;
+      border: 0;
+      margin: 0;
+
+      .cart-product {
+        font-size: 0.875rem;
+        color: #fff;
+
+        td:first-child {
+          padding-left: 0;
+          width: 60px;
+        }
+
+        td:last-child {
+          padding-right: 0;
+        }
+
+        td {
+          padding: 10px 5px;
+          color: #fff;
+          white-space: normal;
+          border-top: 0;
+          border-bottom: 1px solid #2A2A2A;
+        }
+
+        .cart-product__name {
+          color: #fff;
+          font-size: 0.875rem;
+        }
+
+        .cart-product__price {
+          font-size: 0.8125rem;
+          font-weight: 500;
+        }
+
+        .cart-product__remove {
+          border: 0;
+          color: #999;
+          background: transparent;
+          margin: 0;
+          padding: 0;
+
+          .la {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  .cart-summary {
+    padding: 10px 25px;
+
+    .table {
+      width: 100%;
+      max-width: 100%;
+      border: 0;
+      margin: 0;
+
+      td {
+        font-size: 0.875rem;
+        color: #fff;
+        border: 0;
+        padding: 5px 0;
+      }
+    }
+  }
+
+  .cart-actions {
+    padding: 0;
+    overflow: hidden;
+
+    a {
+      display: block;
+      border-radius: 0;
+    }
+  }
+
+  .cart-empty {
+    font-size: 0.875rem;
+    padding: 54px 10px;
+    color: #999;
+    font-weight: 500;
+
+    .cart-empty-icon {
+      margin: 0 0 5px;
+
+      .la {
+        font-size: 100px;
+        opacity: 0.2;
+      }
+    }
+  }
+}

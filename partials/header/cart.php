@@ -6,76 +6,106 @@
   </a>
   <ul class="m-dropdown__wrapper cart-content list-unstyled">
     <li>
-      <div class="text-center"><span class="la la-shopping-cart"></span><br>Your shopping cart is empty!</div>
-    </li>
-    <li>
-      <div class="cart-title h5">
-        <div class="cart-total"><span class="la la-shopping-cart"></span> Your Cart: <span class="price-color">6</span></div>
+      <div class="cart-empty text-center">
+        <div class="cart-empty-icon">
+          <i class="la la-shopping-cart"></i>
+        </div>
+        <span>Chưa có sản phẩm trong giỏ hàng!</span>
       </div>
     </li>
-    <li class="li-cart-products">
-      <div class="checkout checkout-mobile visible-xs"><a
-          href="http://getcart.321cart.com/black-white/index.php?route=checkout/cart"
-          class="btn btn-xs btn-primary"><span class="lnr lnr-cart"></span> View Cart</a><a
-          href="http://getcart.321cart.com/black-white/index.php?route=checkout/checkout"
-          class="btn btn-xs btn-primary"><span class="lnr lnr-enter"></span> Checkout</a></div>
-      <table class="table table-striped">
-        <tbody>
-        <tr>
-          <td class="text-center"><a
-              href="http://getcart.321cart.com/black-white/index.php?route=product/product&amp;product_id=91"><img
-                src="http://getcart.321cart.com/black-white/image/cache/catalog/products/321product_2_1-60x60.jpg"
-                alt="Sony PlayStation 4 Launch Edition 500GB Glacier White Console"
-                title="Sony PlayStation 4 Launch Edition 500GB Glacier White Console" class="img-thumbnail"></a>
-          </td>
-          <td class="text-left"><span class="name"><a
-                href="http://getcart.321cart.com/black-white/index.php?route=product/product&amp;product_id=91">Sony PlayStation 4 Launch Edition 500GB Glacier White Console</a></span>
-            <br>
-            <span class="price price-color">$2,695.00</span></td>
-          <td class="text-right"><span class="quantity price-color">x5</span></td>
-          <td class="text-center">
-            <button type="button" onclick="cart.remove('1');" title="Remove" class="btn btn-xs item-remove"><span
-                class="lnr lnr-cross-circle"></span></button>
-          </td>
-        </tr>
-        <tr>
-          <td class="text-center"><a
-              href="http://getcart.321cart.com/black-white/index.php?route=product/product&amp;product_id=94"><img
-                src="http://getcart.321cart.com/black-white/image/cache/catalog/products/321product_5_1-60x60.jpg"
-                alt="Adidas Men's Adizero Adios 3 Energy Returning Running Shoes"
-                title="Adidas Men's Adizero Adios 3 Energy Returning Running Shoes" class="img-thumbnail"></a>
-          </td>
-          <td class="text-left"><span class="name"><a
-                href="http://getcart.321cart.com/black-white/index.php?route=product/product&amp;product_id=94">Adidas Men's Adizero Adios 3 Energy Returning Running Shoes</a></span>
-            <br>
-            <span class="price price-color">$95.20</span></td>
-          <td class="text-right"><span class="quantity price-color">x1</span></td>
-          <td class="text-center">
-            <button type="button" onclick="cart.remove('2');" title="Remove" class="btn btn-xs item-remove"><span
-                class="lnr lnr-cross-circle"></span></button>
-          </td>
-        </tr>
-        </tbody>
-      </table>
+    <li>
+      <div class="cart-total d-flex align-items-center">
+        <span class="cart-total-icon la la-shopping-cart"></span>
+        <span class="cart-total-title h6">Số sản phẩm:</span>
+        <span class="cart-total-number">6</span>
+      </div>
     </li>
-    <li class="li-cart-total">
-      <div>
-        <table class="table cart-total">
+    <li>
+      <div class="cart-products">
+        <table class="table">
           <tbody>
-          <tr>
-            <td class="text-left">Sub-Total</td>
-            <td class="text-right"><span class="price-color">$95.20</span></td>
+          <tr class="cart-product">
+            <td class="text-left">
+              <a href="javascript:;" class="cart-product__thumb">
+                <img src="http://getcart.321cart.com/black-white/image/cache/catalog/products/321product_2_1-60x60.jpg"
+                  alt="Sony PlayStation 4 Launch Edition 500GB Glacier White Console"
+                  title="Sony PlayStation 4 Launch Edition 500GB Glacier White Console">
+              </a>
+            </td>
+            <td class="text-left">
+              <a href="javascript:;" class="cart-product__name">Sony PlayStation 4 Launch Edition 500GB Glacier White Console</a>
+              <br>
+              <span class="cart-product__price">1.500.000 đ</span>
+            </td>
+            <td class="text-right">
+              <span class="cart-product__quantity">x2</span>
+            </td>
+            <td class="text-center">
+              <button type="button" title="Remove" class="btn btn-xs cart-product__remove">
+                <span class="la la-remove"></span>
+              </button>
+            </td>
           </tr>
-          <tr>
-            <td class="text-left">Total</td>
-            <td class="text-right"><span class="price-color">$95.20</span></td>
+          <tr class="cart-product">
+            <td class="text-left">
+              <a href="javascript:;" class="cart-product__thumb">
+                <img src="http://getcart.321cart.com/black-white/image/cache/catalog/products/321product_2_1-60x60.jpg"
+                     alt="Adidas Men's Adizero Adios 3 Energy Returning Running Shoes"
+                     title="Adidas Men's Adizero Adios 3 Energy Returning Running Shoes">
+              </a>
+            </td>
+            <td class="text-left">
+              <a href="javascript:;" class="cart-product__name">Adidas Men's Adizero Adios 3 Energy Returning Running Shoes</a>
+              <br>
+              <span class="cart-product__price">900.000 đ</span>
+            </td>
+            <td class="text-right">
+              <span class="cart-product__quantity">x1</span>
+            </td>
+            <td class="text-center">
+              <button type="button" title="Remove" class="btn btn-xs cart-product__remove">
+                <span class="la la-remove"></span>
+              </button>
+            </td>
           </tr>
           </tbody>
         </table>
-        <div class="checkout hidden-xs"><a href="http://getcart.321cart.com/black-white/index.php?route=checkout/cart"
-                                           class="btn btn-xs btn-primary"><span class="lnr lnr-cart"></span> View
-            Cart</a><a href="http://getcart.321cart.com/black-white/index.php?route=checkout/checkout"
-                       class="btn btn-xs btn-primary"><span class="lnr lnr-enter"></span> Checkout</a></div>
+      </div>
+    </li>
+    <li>
+      <div class="cart-summary">
+        <table class="table">
+          <tbody>
+          <tr>
+            <td class="text-left">Tổng tiền</td>
+            <td class="text-right">
+              <span class="">2.400.000 đ</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="text-left">Phí giao hàng</td>
+            <td class="text-right">
+              <span class="">100.000 đ</span>
+            </td>
+          </tr>
+          <tr>
+            <td class="text-left">Thành tiền</td>
+            <td class="text-right">
+              <span>2.500.000 đ</span>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </li>
+    <li>
+      <div class="cart-actions d-flex hidden-xs">
+        <a href="javascript:;" class="flex-fill btn btn-warning">
+          <span class="la la-shopping-cart"></span> Xem giỏ hàng
+        </a>
+        <a href="javascript:;" class="flex-fill btn btn-warning">
+          <span class="la la-sign-out"></span> Đặt hàng
+        </a>
       </div>
     </li>
   </ul>

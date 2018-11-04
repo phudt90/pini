@@ -14,6 +14,7 @@ $m--buttons: (
 		default: (
 			default: (
 				self: (
+					font-size: 0.875rem,
 					padding: (
 						x: $input-btn-padding-x,
 						y: $input-btn-padding-y
@@ -66,7 +67,7 @@ $m--buttons: (
 		custom: (
 			default: (
 				self: (
-					font-size: 1rem,
+					font-size: 0.875rem,
 					padding: (
 						x: 2rem,
 						y: 0.75rem

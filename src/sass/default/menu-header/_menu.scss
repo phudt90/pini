@@ -107,7 +107,7 @@
 
       > a {
         display: block;
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 500;
         color: #fff;
         padding: 10px 15px;
@@ -120,7 +120,7 @@
     }
 
     > li.menu_oc .dropdown-menus li > a + .dropdown-menus {
-      left: 180px;
+      left: 210px;
       margin-top: 0;
     }
   }
@@ -155,10 +155,8 @@
     }
 
     a {
-      min-width: 230px;
       display: block;
       padding: 4px 25px;
-      clear: both;
       width: 100%;
       text-decoration: none;
       transition: all 0.15s ease-in 0s;
@@ -188,7 +186,7 @@
       background-color: #242424;
 
       ul {
-        width: 180px;
+        width: 210px;
         margin: 0;
         padding: 0;
       }
@@ -213,13 +211,12 @@
       }
 
       a {
+        display: block;
         position: relative;
         font-size: 13px;
         font-weight: 400;
         color: #fff;
         text-decoration: none;
-        min-width: 180px;
-        max-width: 180px;
       }
     }
 

@@ -7,8 +7,8 @@
 //== The body element font settings
 $m--root-font: (
   size: (
-    desktop: 14px,
-    tablet: 14px,
+    desktop: 16px,
+    tablet: 16px,
     mobile: 14px
   ),
   weight: 400,
@@ -20,7 +20,7 @@ $m--root-font: (
 
 //== UI State Colors
 //== Brand state color
-$m--brand-color: #716aca;
+$m--brand-color: #F7C400;
 $m--brand-inverse-color: #ffffff;
 
 //== Other state colors
@@ -49,7 +49,7 @@ $m--state-colors: (
 
   // bootstrap states
   primary: (
-    base: #5867dd,
+    base: #F7C400,
     inverse: #ffffff
   ),
   success: (

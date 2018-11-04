@@ -31,11 +31,8 @@
     }
   }
 
-  .contact-links {
-
-  }
-
   .contact-details {
+    font-size: 0.875rem;
     padding-top: 15px;
     padding-bottom: 20px;
 
@@ -61,7 +58,7 @@
   }
   .consultants {
     h4 {
-      font-size: 1.2rem;
+      font-size: 1rem;
       margin-bottom: 5px;
     }
 
@@ -73,14 +70,14 @@
       }
 
       .consultant-details > span {
-        font-size: 0.85rem;
+        font-size: 0.875rem;
         color: #999;
         display: block;
       }
 
       .consultant-phone a {
         color: #F7C400;
-        font-size: 18px;
+        font-size: 1rem;
         line-height: 1.3;
       }
 
