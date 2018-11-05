@@ -358,6 +358,7 @@ $categoryPath = $basePath . '/pages/category.php';
                     <li><a href="<?php echo $basePath ?>/pages/components/base/typography.php">Typography</a></li>
                     <li><a href="<?php echo $basePath ?>/pages/components/base/stack.php">Stack</a></li>
                     <li><a href="<?php echo $basePath ?>/pages/components/base/tables.php">Tables</a></li>
+                    <li><a href="<?php echo $basePath ?>/pages/components/base/tooltip.php">Tooltip</a></li>
                     <li>
                       <a href="javascript:;">Tabs <i class="la la-angle-right"></i></a>
                       <div class="dropdown-menus">
