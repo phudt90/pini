@@ -46,9 +46,12 @@
 @import "menu-header/menu";
 
 @import "category/category";
-@import "category/category-list";
-@import "category/product-list";
+@import "category/links";
+@import "category/products";
+@import "category/filters";
 
 @import "footer/footer";
 
-@import "panel/panel";
+@import "general/pagination";
+
+@import "components/panel/panel";

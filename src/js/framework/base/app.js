@@ -46,6 +46,12 @@ var mApp = function() {
     });
   }
 
+  var initVerticalAccordionMenus = function() {
+    $('[data-toggle="m-accordion-menu"]').each(function() {
+      $(this).dcAccordion();
+    });
+  }
+
   /**
    * Initializes bootstrap popover
    */
@@ -213,6 +219,7 @@ var mApp = function() {
      */
     initComponents: function() {
       initTooltips();
+      initVerticalAccordionMenus();
     },
 
 

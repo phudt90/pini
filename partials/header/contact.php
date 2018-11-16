@@ -11,19 +11,19 @@
       <div class="contact-title">
         <div class="row align-items-center">
           <div class="col-sm-6">
-            <div class="contact-title-content h6">
-              <span class="la la-phone"></span> Liên hệ Ắc quy Nguyễn Hòa
+            <div class="contact-title-content h5">
+              <i class="la la-phone"></i> Liên hệ
             </div>
           </div>
           <div class="col-sm-6">
             <div class="text-right contact-links">
-              <a href="javascript:;" class="btn btn-sm btn-secondary m-btn m-btn--icon" target="_blank">
+              <a href="javascript:;" class="btn btn-secondary m-btn m-btn--icon" target="_blank">
                 <span>
                   <i class="la la-map-marker"></i>
                   <span>Tìm đường đi</span>
                 </span>
               </a>
-              <a href="javascript:;" class="btn btn-sm btn-warning m-btn m-btn--icon">
+              <a href="javascript:;" class="btn btn-primary m-btn m-btn--icon">
                 <span>
                   <i class="la la-envelope"></i>
                   <span>Gửi yêu cầu</span>
@@ -39,26 +39,26 @@
         <div class="row">
           <div class="col-sm-12">
             <h3>Uy tín là danh dự</h3>
-            <h4>Chúng tôi cung cấp dịch vụ chất lượng tốt nhất</h4>
+            <h5>Chúng tôi cung cấp dịch vụ chất lượng tốt nhất</h5>
           </div>
         </div>
 
         <div class="row">
           <div class="col-sm-3">
-            <span>Điện thoại</span><br>
+            <span class="m--font-brand">Điện thoại</span><br>
             <a href="tel:1-800-123-123">0973 459 639</a>
           </div>
           <div class="col-sm-3">
-            <span>E-mail</span><br>
+            <span class="m--font-brand">E-mail</span><br>
             <a href="mailto:info@email.com">acquynh@gmail.com</a>
           </div>
           <div class="col-sm-3">
-            <span>Địa chỉ</span><br>
+            <span class="m--font-brand">Địa chỉ</span><br>
             602 Lê Văn Quới<br>
             Quận Bình Tân, TP.HCM
           </div>
           <div class="col-sm-3">
-            <span>Giờ mở cửa</span><br>
+            <span class="m--font-brand">Giờ mở cửa</span><br>
             Thứ 2 đến thứ 7<br>
             8:00 đến 20:00.
           </div>
@@ -79,9 +79,11 @@
                 </div>
                 <div class="m-stack__item m-stack__item--middle">
                   <span class="consultant-details">
-                    <span class="consultant-name">Nguyễn Hòa</span>
-                    <span class="consultant-phone"><a href="tel:1-800-123-123">0973 459 639</a></span>
-                    <span class="consultant-email small"><a href="mailto:michael@email.com">acquynh@gmail.com</a></span>
+                    <span class="consultant-name m--font-brand">Nguyễn Hòa</span>
+                    <span class="consultant-phone">
+                      <a href="tel:1-800-123-123" class="m--font-accent">0973 459 639</a>
+                    </span>
+                    <span class="consultant-email"><a href="mailto:michael@email.com">acquynh@gmail.com</a></span>
                   </span>
                 </div>
               </div>
@@ -95,9 +97,11 @@
                 </div>
                 <div class="m-stack__item m-stack__item--middle">
                   <span class="consultant-details">
-                    <span class="consultant-name">Nguyễn Hòa</span>
-                    <span class="consultant-phone"><a href="tel:1-800-123-123">0973 459 639</a></span>
-                    <span class="consultant-email small"><a href="mailto:michael@email.com">acquynh@gmail.com</a></span>
+                    <span class="consultant-name m--font-brand">Nguyễn Hòa</span>
+                    <span class="consultant-phone">
+                      <a href="tel:1-800-123-123" class="m--font-accent">0973 459 639</a>
+                    </span>
+                    <span class="consultant-email"><a href="mailto:michael@email.com">acquynh@gmail.com</a></span>
                   </span>
                 </div>
               </div>
@@ -111,9 +115,11 @@
                 </div>
                 <div class="m-stack__item m-stack__item--middle">
                   <span class="consultant-details">
-                    <span class="consultant-name">Nguyễn Hòa</span>
-                    <span class="consultant-phone"><a href="tel:1-800-123-123">0973 459 639</a></span>
-                    <span class="consultant-email small"><a href="mailto:michael@email.com">acquynh@gmail.com</a></span>
+                    <span class="consultant-name m--font-brand">Nguyễn Hòa</span>
+                    <span class="consultant-phone">
+                      <a href="tel:1-800-123-123" class="m--font-accent">0973 459 639</a>
+                    </span>
+                    <span class="consultant-email"><a href="mailto:michael@email.com">acquynh@gmail.com</a></span>
                   </span>
                 </div>
               </div>

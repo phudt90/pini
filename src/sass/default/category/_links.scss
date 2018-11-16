@@ -1,11 +1,11 @@
-.category-list {
+.category-links {
 
-  .category-list-item {
+  .category-link {
     margin: 10px 0;
 
     a {
       color: #2D364C;
-      font-size: 0.9375rem;
+      font-size: get-font-size(regular, '+');
       font-weight: 500;
       text-decoration: none;
 

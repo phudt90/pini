@@ -1,15 +1,21 @@
 /* Contact Block */
 .contact-block {
   min-width: 800px;
-  background-color: #242424;
-  color: #fff;
+  color: array-get($m-config-header, header, default, text-color);
+  background-color: array-get($m-config-header, header, default, bg-color);
 
   > li > div {
     padding: 0 30px;
   }
 
   > li:not(:last-child) > div {
-    border-bottom: 1px solid #2A2A2A;
+    border-bottom: 1px solid #F2F4F8;
+  }
+
+  .contact-links {
+    .btn {
+      margin-left: 10px;
+    }
   }
 
   .contact-title {
@@ -23,21 +29,22 @@
       line-height: 65px;
       margin: 0;
 
-      .la {
-        color: #999999;
-        font-size: 24px;
+      > i {
+        color: $m--brand-color;
+        font-size: 2.2rem;
         line-height: 65px;
+        vertical-align: middle;
+        min-width: 40px;
       }
     }
   }
 
   .contact-details {
-    font-size: 0.875rem;
     padding-top: 15px;
     padding-bottom: 20px;
 
     a {
-      color: #fff;
+      color: #2D364C;
     }
 
     h2 {
@@ -50,12 +57,14 @@
     h3 {
       margin-top: 10px;
       text-align: left;
+      color: array-get($m--state-colors, accent, base);
     }
 
-    h4 {
+    h4, h5 {
       margin-bottom: 30px;
     }
   }
+
   .consultants {
     h4 {
       font-size: 1rem;
@@ -70,19 +79,12 @@
       }
 
       .consultant-details > span {
-        font-size: 0.875rem;
-        color: #999;
         display: block;
       }
 
       .consultant-phone a {
-        color: #F7C400;
-        font-size: 1rem;
-        line-height: 1.3;
-      }
-
-      .consultant-email a {
-        color: #fff;
+        font-size: get-font-size(regular, '++');
+        font-weight: 500;
       }
     }
   }

@@ -25,5 +25,5 @@
   <?php include 'nav_main.php' ?>
 </header>
 
-<div id="menu-fix" style="height:106px;max-height:106px;"></div>
+<div id="header-fixed-space"></div>
 <?php //include 'nav_mobile.php'; ?>

@@ -389,7 +389,7 @@ $m-pill-radius: 60px;
     // standart buttons
     &.btn-default,
     &.btn-secondary {
-      background: white;
+      background: #F2F4F8;
       border-color: array-get($m--forms, input, skins, $skin, default, border, default);
 
       i {

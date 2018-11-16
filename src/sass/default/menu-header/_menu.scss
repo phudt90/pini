@@ -107,9 +107,9 @@
 
       > a {
         display: block;
-        font-size: 1rem;
-        font-weight: 500;
-        color: #fff;
+        font-size: get-font-size(regular, '+');
+        font-weight: get-font-weight(bold);
+        color: inherit;
         padding: 10px 15px;
         min-height: 15px;
         position: relative;
@@ -157,7 +157,6 @@
     a {
       display: block;
       padding: 4px 25px;
-      width: 100%;
       text-decoration: none;
       transition: all 0.15s ease-in 0s;
       outline: none !important;
@@ -166,24 +165,11 @@
         padding: 4px 25px 4px 30px;
       }
     }
-
-    a.see-all {
-      display: block;
-      padding: 25px 15px 25px 25px;
-      border-radius: 0;
-      position: absolute;
-      bottom: 0;
-      left: 0;
-
-      &:hover {
-        padding-left: 30px;
-      }
-    }
   }
 
   .menu_oc {
     .dropdown-menus {
-      background-color: #242424;
+      background-color: array-get($m-config-header, header, default, bg-color);
 
       ul {
         width: 210px;
@@ -213,10 +199,14 @@
       a {
         display: block;
         position: relative;
-        font-size: 13px;
-        font-weight: 400;
-        color: #fff;
+        color: #2D364C;
+        font-size: get-font-size(regular, '-');
+        font-weight: get-font-weight(normal);
         text-decoration: none;
+
+        &:hover {
+          color: array-get($m--state-colors, brand, base);
+        }
       }
     }
 
@@ -260,7 +250,7 @@
       }
 
       .name {
-        font-size: 13px;
+        font-size: get-font-size(regular, '-');
         color: #444;
         padding: 10px 5px;
         overflow: hidden;

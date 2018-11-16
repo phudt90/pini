@@ -1,24 +1,31 @@
-
 .m-products {
 
   .m-product-item {
+    padding: 0;
+
     .m-product-item__inner {
       position: relative;
-      padding: 15px 15px 20px;
+      padding: 15px 15px;
+      overflow: hidden;
+      @include border-radius(10px);
+      @include transition(all 0.2s ease-in-out 0s);
 
       &:hover {
+        @include shadow(0 0 15px rgba(76,88,103,0.15));
+
         .btn-cart {
-          opacity: 1;
+          @include opacity(1);
         }
       }
     }
 
     .m-product-item__thumb {
+      @include flexbox();
       position: relative;
       overflow: hidden;
-      display: flex;
       align-items: center;
       min-height: 250px;
+      max-height: 250px;
       text-align: center;
 
       > a {
@@ -28,13 +35,17 @@
           display:block;
           max-width: 100%;
           height: auto;
-          transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1) 0s;
+          @include transition(all 0.5s cubic-bezier(0.2, 1, 0.3, 1) 0s);
         }
       }
     }
 
+    .m-product-item__info {
+      margin-top: 15px;
+    }
+
     .m-product-item__brand {
-      font-size: 0.75rem;
+      font-size: get-font-size(regular, '-');
     }
 
     .m-product-item__name {
@@ -43,24 +54,28 @@
         margin: 0 0 10px;
 
         a {
-          color: #14152D;
-          font-size: 1rem;
-          font-weight: 500;
+          color: inherit;
+          font-size: get-font-size(regular, '+');
+          font-weight: get-font-weight(normal);
           line-height: 1.4;
         }
       }
     }
 
     .m-product-item__price {
+      margin-top: 20px;
+      margin-bottom: 5px;
+
       .price-new {
-        font-size: 1.0625rem;
-        font-weight: 500;
+        font-size: get-font-size(regular, '++');
+        font-weight: get-font-weight(bold);
         margin-right: 5px;
       }
+
       .price-old {
         color: #79828C;
-        font-size: 0.875rem;
-        font-weight: 300;
+        font-size: get-font-size(regular, '-');
+        font-weight: get-font-weight(thin);
         text-decoration: line-through;
       }
     }
@@ -69,15 +84,15 @@
       .btn-cart {
         position: absolute;
         right: 15px;
-        bottom: 20px;
+        bottom: 15px;
         width: 50px;
         height: 50px;
-        color: #333!important;
-        transition: all 0.15s ease-in 0s;
-        opacity: 0;
+        color: #fff;
+        @include transition(all 0.15s ease-in 0s);
+        @include opacity(0);
 
-        > .la {
-          font-size: 1.5625rem;
+        > i {
+          font-size: 2rem;
         }
       }
     }

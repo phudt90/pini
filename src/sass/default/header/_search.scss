@@ -1,17 +1,22 @@
 .header-search-bar {
   position: relative;
   margin: 10px 0;
-  transition: 0.5s ease-in-out 0s;
 
   .form-control {
     height: 46px;
     margin-bottom: 0;
     padding: 0 30px 0 20px;
-    background-color: #2B2B2B;
-    color: #FFFFFF;
-    border-color: #2B2B2B;
+    background-color: array-get($m-config-header, header, default, bg-color);
+    color: #2D364C;
+    border: 2px solid #E6EAF4;
+    border-radius: 5px;
     outline: 0;
     box-shadow: none;
+
+    &::placeholder {
+      font-weight: 500;
+      opacity: 0.7;
+    }
   }
 
   .btn-search {
@@ -31,7 +36,7 @@
     box-shadow: none;
     font-size: 21px;
     line-height: 40px;
-    color: #fff;
+    color: #2D364C;
 
     .button-i {
       padding: 0;

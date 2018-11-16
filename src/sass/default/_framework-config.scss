@@ -7,8 +7,8 @@
 //== The body element font settings
 $m--root-font: (
   size: (
-    desktop: 16px,
-    tablet: 16px,
+    desktop: 14px,
+    tablet: 14px,
     mobile: 14px
   ),
   weight: 400,
@@ -20,7 +20,7 @@ $m--root-font: (
 
 //== UI State Colors
 //== Brand state color
-$m--brand-color: #F7C400;
+$m--brand-color: #04DED1;
 $m--brand-inverse-color: #ffffff;
 
 //== Other state colors
@@ -39,7 +39,7 @@ $m--state-colors: (
     inverse: #282a3c
   ),
   accent: (
-    base: #00c5dc,
+    base: #3E3FD3,
     inverse: #ffffff
   ),
   focus: (
@@ -49,7 +49,7 @@ $m--state-colors: (
 
   // bootstrap states
   primary: (
-    base: #F7C400,
+    base: $m--brand-color,
     inverse: #ffffff
   ),
   success: (
@@ -68,4 +68,14 @@ $m--state-colors: (
     base: #f4516c,
     inverse: #ffffff
   )
+);
+
+//== General Font Weights
+$m--font-weights: (
+  thin:  300,     // access to this font weight value calling get-font-weight function as get-font-weight(this) in SASS code
+  normal: 400,    // access to this font weight value calling get-font-weight function as get-font-weight(normal) in SASS code
+  bold: 500,      // access to this font weight value calling get-font-weight function as get-font-weight(bold) in SASS code
+  bolder: 600,    // access to this font weight value calling get-font-weight function as get-font-weight(bolder) in SASS code
+  boldest: 700,   // access to this font weight value calling get-font-weight function as get-font-weight(boldest) in SASS code
+  boldest2: 900   // access to this font weight value calling get-font-weight function as get-font-weight(boldest2) in SASS code
 );

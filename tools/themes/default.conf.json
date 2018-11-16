@@ -36,6 +36,16 @@
               "scripts": [
                 "{$config.path.node_modules}/bootstrap/dist/js/bootstrap.min.js"
               ]
+            },
+            "js-cookie": {
+              "scripts": [
+                "{$config.path.node_modules}/js-cookie/src/js.cookie.js"
+              ]
+            },
+            "jquery-vertical-accordion-menu": {
+              "scripts": [
+                "{$config.path.src}/vendors/jquery-vertical-accordion-menu/js/jquery.dcjqaccordion.2.9.js"
+              ]
             }
           },
           "optional": {

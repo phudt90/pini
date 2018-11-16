@@ -15,9 +15,9 @@
     </li>
     <li>
       <div class="cart-total d-flex align-items-center">
-        <span class="cart-total-icon la la-shopping-cart"></span>
+        <i class="cart-total-icon la la-shopping-cart"></i>
         <span class="cart-total-title h6">Số sản phẩm:</span>
-        <span class="cart-total-number">6</span>
+        <span class="cart-total-number m--font-accent h5">6</span>
       </div>
     </li>
     <li>
@@ -42,7 +42,7 @@
             </td>
             <td class="text-center">
               <button type="button" title="Remove" class="btn btn-xs cart-product__remove">
-                <span class="la la-remove"></span>
+                <i class="la la-remove"></i>
               </button>
             </td>
           </tr>
@@ -79,19 +79,19 @@
           <tr>
             <td class="text-left">Tổng tiền</td>
             <td class="text-right">
-              <span class="">2.400.000 đ</span>
+              <span class="m--font-accent">2.400.000 đ</span>
             </td>
           </tr>
           <tr>
             <td class="text-left">Phí giao hàng</td>
             <td class="text-right">
-              <span class="">100.000 đ</span>
+              <span class="m--font-accent">100.000 đ</span>
             </td>
           </tr>
           <tr>
             <td class="text-left">Thành tiền</td>
             <td class="text-right">
-              <span>2.500.000 đ</span>
+              <span class="m--font-accent">2.500.000 đ</span>
             </td>
           </tr>
           </tbody>
@@ -99,12 +99,12 @@
       </div>
     </li>
     <li>
-      <div class="cart-actions d-flex hidden-xs">
-        <a href="javascript:;" class="flex-fill btn btn-warning">
-          <span class="la la-shopping-cart"></span> Xem giỏ hàng
+      <div class="cart-actions hidden-xs">
+        <a href="javascript:;" class="btn btn-primary">
+          <i class="la la-shopping-cart"></i> Xem giỏ hàng
         </a>
-        <a href="javascript:;" class="flex-fill btn btn-warning">
-          <span class="la la-sign-out"></span> Đặt hàng
+        <a href="javascript:;" class="btn btn-primary">
+          <i class="la la-sign-out"></i> Đặt hàng
         </a>
       </div>
     </li>
