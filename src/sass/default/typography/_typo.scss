@@ -1,0 +1,17 @@
+b, strong {
+  font-weight: get-font-weight(bold);
+}
+
+img.img-responsive {
+  max-width: 100%;
+}
+
+.m-font-weight--thin {
+  font-weight: get-font-weight(300)!important;
+}
+.m-font-weight--normal {
+  font-weight: get-font-weight(400)!important;
+}
+.m-font-weight--bold {
+  font-weight: get-font-weight(500)!important;
+}

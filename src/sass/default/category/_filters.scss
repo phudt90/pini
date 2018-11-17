@@ -4,7 +4,20 @@
   .btn-group {
     .btn {
       background-color: #F2F4F8;
-      color: #14152D;
+      color: #2D364C;
+      border: 0;
+      padding: 9px 12px 9px;
+      @include border-radius(3px, '!important');
+
+      &:not(:last-child) {
+        margin-right: 5px;
+      }
+
+      &:hover {
+        background-color: #3E3FD3;
+        color: #FFFFFF;
+        @include shadow(0 0 15px #E2E6EB);
+      }
 
       > i {
         color: inherit;

@@ -1,0 +1,9 @@
+footer {
+  .copyright {
+    color: #2D364C;
+    background-color: #FFFFFF;
+    border-top: 1px solid #F2F4F8;
+    font-size: get-font-size(regular, '-');
+    padding: 20px 0;
+  }
+}

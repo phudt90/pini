@@ -1,0 +1,9 @@
+@mixin link-hover($color) {
+  color: #2d364c;
+  @include transition(all 0.15s ease-in 0s);
+  outline: none !important;
+
+  &:hover {
+    color: array-get($m--state-colors, $color, base);
+  }
+}

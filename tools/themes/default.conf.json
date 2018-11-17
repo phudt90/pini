@@ -42,6 +42,12 @@
                 "{$config.path.node_modules}/js-cookie/src/js.cookie.js"
               ]
             },
+            "theia-sticky-sidebar": {
+              "scripts": [
+                "{$config.path.node_modules}/theia-sticky-sidebar/dist/ResizeSensor.js",
+                "{$config.path.node_modules}/theia-sticky-sidebar/dist/theia-sticky-sidebar.js"
+              ]
+            },
             "jquery-vertical-accordion-menu": {
               "scripts": [
                 "{$config.path.src}/vendors/jquery-vertical-accordion-menu/js/jquery.dcjqaccordion.2.9.js"

@@ -48,7 +48,31 @@ var mApp = function() {
 
   var initVerticalAccordionMenus = function() {
     $('[data-toggle="m-accordion-menu"]').each(function() {
-      $(this).dcAccordion();
+
+      var $this = $(this),
+        autoClose = ($this.data('auto-close') !== undefined) ? $this.data('auto-close') : true,
+        autoExpand = ($this.data('auto-expand') !== undefined) ? $this.data('auto-expand') : false,
+        speed = ($this.data('speed') !== undefined) ? $this.data('speed') : 'fast';
+      $this.dcAccordion({
+        disableLink  : false,   // Disable all links of parent items
+        autoClose    : autoClose,    // If set to "true" only one sub-menu open at any time
+        autoExpand   : autoExpand,   // If set to "true" all sub-menus of parent tags with class 'classExpand' will expand on page load
+        speed        : speed,  // Speed of animation
+      });
+    });
+  }
+
+  var initStickySidebar = function() {
+    $('[data-toggle="m-sticky-sidebar"]').each(function() {
+      var $self = $(this)
+      var options = {
+        additionalMarginTop: 20,
+        additionalMarginBottom: 20
+      };
+      if ($self.data('container') !== undefined) {
+        options.containerSelector = $self.data('container');
+      }
+      $self.theiaStickySidebar(options);
     });
   }
 
@@ -220,6 +244,7 @@ var mApp = function() {
     initComponents: function() {
       initTooltips();
       initVerticalAccordionMenus();
+      initStickySidebar();
     },
 
 

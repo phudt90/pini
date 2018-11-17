@@ -1,91 +1,46 @@
 // Footer
 footer {
-  color: #fff;
-  background-color: #1B1B1B;
+  color: #2D364C;
+  background-color: #F8FAFE;
   margin-top: 0;
 
-  .newsletter {
-    color: #FFFFFF;
-    background-color: #3E3FD3;
-    padding: 30px 0;
+  .footer-social {
+    ul {
+      margin: 0;
+      padding: 0;
 
-    &__block {
-      margin: 0 0 10px;
-    }
+      > li {
+        position: relative;
+        display: inline-block;
 
-    .lnr {
-      float: left;
-      font-size: 50px;
-      margin-right: 20px;
-      margin-top: -5px;
-      color: #04DED1;
-      transform: rotate(-10deg);
-    }
+        > a {
+          display: block;
+          text-align: center;
+          width: 36px;
+          height: 36px;
+          line-height: 37px;
+          margin: 3px 1px 3px 0;
+          padding: 0;
+          @include border-radius(50%);
+          @include transition(all 0.2s ease-in 0s);
 
-    .heading{
-      display: block;
-    }
-    .subtext {
-      color:#9ba5f5;
-    }
-
-    &__form {
-      &__inner {
-        input {
-          height: 50px;
-          margin: 0;
-          padding: 10px 25px;
-          letter-spacing: 1px;
-          float: left;
-
-          @include breakpoint(max-width bp(sm)) {
-            float: none;
-            width: 100%!important;
-            margin: 0 0 10px!important;
+          > i {
+            font-size: 20px;
+            vertical-align: middle;
+            color: #fff
           }
         }
-        input[type="email"] {
-          width: calc(100% - 160px);
-        }
 
-        input[type="submit"] {
-          width: 150px;
-          margin-left: 10px;
+        &.facebook > a {
+          background-color: #4C75BD;
+        }
+        &.twitter > a {
+          background-color: #00C5FF;
+        }
+        &.youtube > a {
+          background-color: #DB3B1B;
         }
       }
-    }
-  }
-
-  .information {
-    font-size: 0.8125rem;
-    padding: 30px 0 35px;
-
-    h3 {
-      color: #fff;
-      margin-top: 20px;
-      margin-bottom: 15px;
-    }
-
-    p {
-      margin-bottom: 0;
-    }
-
-    a, span {
-      color: #aaa;
-    }
-    a:hover {
-      color: #F7C400;
-    }
-
-    a.btn {
-      margin-top: 30px;
-    }
-  }
-
-  .copyright {
-    padding: 20px 0;s
-
-    .small {
     }
   }
 }

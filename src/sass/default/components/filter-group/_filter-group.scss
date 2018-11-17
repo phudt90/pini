@@ -1,0 +1,11 @@
+.filter-group {
+  .filter-group-item {
+    margin-bottom: 20px;
+
+    .filter-group-label {
+      font-size: get-font-size(regular);
+      font-weight: get-font-weight(bold);
+      margin-bottom: 10px;
+    }
+  }
+}

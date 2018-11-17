@@ -14,267 +14,19 @@ $basePath  = "http://" . $_SERVER['SERVER_NAME'];
 
   <div class="m-body">
     <div class="m-container">
-      <div class="row">
-        <div class="col-xs-12 col-md-3">
-          <div class="m-panel m-panel--padded m-panel--grey">
-            <div class="m-panel__heading"><h2>Categories</h2></div>
-            <div class="list-group">
-              <ul class="m-accordion-menu list-unstyled" data-toggle="m-accordion-menu">
-                <li class="">
-                  <a href="javascript:;" class="list-group-item active">Electronics <span>(18)</span></a>
-                  <div class="dcjq-icon"><span class="la la-cross"></span></div>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a href="javascript:;" class="list-group-item">TV &amp; Home Audio <span>(18)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Cameras <span>(18)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Computers <span>(18)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Smartphones <span>(18)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Tablets <span>(18)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Headphones <span>(18)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Video Games <span>(18)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Car Electronics <span>(18)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Smart Home <span>(18)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Accessories <span>(0)</span></a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="dcjq-parent-li">
-                  <a href="javascript:;" class="list-group-item">Sporting Goods <span>(18)</span></a><div class="dcjq-icon"><span class="lnr lnr-cross"></span></div>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Cycling <span>(18)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Fitness &amp; Running <span>(18)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Team Sports <span>(18)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Outdoor Sports <span>(18)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Water Sports <span>(18)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Winter Sports <span>(18)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Indoor Games <span>(18)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Camping &amp; Hiking <span>(18)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Skateboards <span>(18)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Accessories <span>(0)</span></a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="dcjq-parent-li">
-                  <a href="javascript:;" class="list-group-item">Clothing &amp; Shoes <span>(18)</span></a><div class="dcjq-icon"><span class="lnr lnr-cross"></span></div>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Woman <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Man <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Kids &amp; Baby <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Shoes <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Jewelry <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Watches <span>(18)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Handbags <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Wallets <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Vintage <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Accessories <span>(0)</span></a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="dcjq-parent-li">
-                  <a href="javascript:;" class="list-group-item">Home &amp; Garden <span>(18)</span></a><div class="dcjq-icon"><span class="lnr lnr-cross"></span></div>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Bedding <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Food <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Furniture <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Lighting <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Tools <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Home Décor <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Crafts <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Housekeeping <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Pet Supplies <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Garden Décor <span>(0)</span></a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="dcjq-parent-li">
-                  <a href="javascript:;" class="list-group-item">Handmade <span>(0)</span></a><div class="dcjq-icon"><span class="lnr lnr-cross"></span></div>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Jewelry <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Handbags <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Artwork <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Home Décor <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Kitchen <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Beauty <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Wedding <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Baby <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Furniture <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Accessories <span>(0)</span></a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="dcjq-parent-li">
-                  <a href="javascript:;" class="list-group-item">Organic &amp; Natural <span>(0)</span></a><div class="dcjq-icon"><span class="lnr lnr-cross"></span></div>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Fruit &amp; Vegetables <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Bread <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Dairy &amp; Chiller <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Eggs <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Nuts &amp; Seeds <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Coconut <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Pasta &amp; Noodles <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Tea &amp; Coffee <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Healthy Lifestyle <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Jams &amp; Honey <span>(0)</span></a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="dcjq-parent-li">
-                  <a href="javascript:;" class="list-group-item">Automotive <span>(0)</span></a><div class="dcjq-icon"><span class="lnr lnr-cross"></span></div>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Automotive Parts <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Automotive Tools <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Car Electronics <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Tires &amp; Wheels <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Motorcycle Parts <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Racing Parts <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Scooter Parts <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Snowmobile Parts <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Vintage Car Parts <span>(0)</span></a>
-                    </li>
-                    <li>
-                      <a href="javascript:;" class="list-group-item">Accessories <span>(0)</span></a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-12 col-md-9">
+      <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/partials/breadcrumb.php'; ?>
+
+      <div id="m-page-content" class="row">
+        <aside class="column-left col-xs-12 col-md-3">
+          <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/partials/widgets/category-menu.php'; ?>
+
+          <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/partials/widgets/side-filters.php'; ?>
+        </aside>
+        <div class="col-xs-12 col-md-7">
           <div class="m-content">
-            <div class="m-panel">
+            <div class="m-panel mb-0">
               <div class="m-panel__heading">
-                <h1 class="h3">Thương hiệu ắc quy</h1>
+                <h1 class="h3">Ắc quy ô tô</h1>
               </div>
               <div class="m-panel__body">
                 <div class="m-panel__description">
@@ -360,7 +112,7 @@ $basePath  = "http://" . $_SERVER['SERVER_NAME'];
               'Ắc Quy AMARON 42B20L 12V 35Ah', 'Ắc Quy AMARON 65B24LS 12V 50Ah', 'Ắc Quy AMARON 90D23R 12V 65Ah',
               'Ắc Quy Đồng Nai CMF 44B20R 12V 43Ah', 'Ắc Quy Đồng Nai CMF 55B24LS 12V 52Ah', 'Ắc Quy Đồng Nai CMF 55D23R 12V 60Ah',
             ];
-            $count = 10;
+            $count = 16;
             $products = [];
             for($i= 0; $i<$count; $i++) {
               array_push($products, [
@@ -376,10 +128,10 @@ $basePath  = "http://" . $_SERVER['SERVER_NAME'];
             <div class="m-products">
               <div class="row m-products-grid product-grid-wrapper">
                 <?php foreach($products as $product) { ?>
-                <div class="m-product-item product-layout product-grid col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                <div class="m-product-item m-product-layout m-product-grid m-product-grid--3 col-lg-3 col-md-3 col-sm-6 col-xs-6">
                   <div class="m-product-item__inner">
                     <div class="m-product-item__thumb">
-                      <a href="javascript:;">
+                      <a href="<?php echo $basePath ?>/pages/product.php">
                         <img src="<?php echo $product['thumb'] ?>"
                           alt="<?php echo $product['name'] ?>"
                           title="<?php echo $product['name'] ?>"
@@ -391,7 +143,7 @@ $basePath  = "http://" . $_SERVER['SERVER_NAME'];
                         <div class="m-product-item__brand">
                           <a href="javascript:;"><?php echo $product['brand'] ?></a></div>
                         <div class="m-product-item__name">
-                          <h4><a href="javascript:;"><?php echo $product['name'] ?></a></h4>
+                          <h4><a href="<?php echo $basePath ?>/pages/product.php"><?php echo $product['name'] ?></a></h4>
                         </div>
                         <p class="m-product-item__price">
                           <span class="price-new"><?php echo $product['price'] ?>đ</span>
@@ -430,6 +182,32 @@ $basePath  = "http://" . $_SERVER['SERVER_NAME'];
 
           </div>
         </div>
+
+        <aside class="column-right col-md-2 hidden-xs">
+          <div data-toggle="m-sticky-sidebar" data-container="#m-page-content">
+            <div class="banner-pro">
+              <div class="banner-pro-item content-bottom-center effect-5">
+                <div class="banner-pro-item-wrapper">
+                  <a href="javascript:;">
+                    <img src="<?php echo $basePath ?>/dist/assets/media/img/banner/banner_sidebar_right_1.jpg"
+                         alt="Adidas Adizero Adios 3" title="Adidas Adizero Adios 3" class="img-responsive">
+                    <span class="banner-pro-bg"></span>
+                    <div class="banner-pro-content-wrapper">
+                      <div class="banner-pro-content-table">
+                        <div class="banner-pro-content-table-cell">
+                          <h2 class="banner-pro-title text-white">Adidas Adizero Adios 3</h2>
+                          <span class="banner-pro-subtitle subtitle text-white">
+                            Open mesh upper for maximumbreathability and synthetic overlays
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
       </div>
     </div>
   </div>

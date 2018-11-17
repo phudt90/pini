@@ -30,18 +30,25 @@
 ////////////////////////////////////////////////////////////////
 
 // Layout Config
-@import "base/config";
+@import "layout/config";
 @import "header/config";
 
+// Base
+@import "base/mixin";
+
 // Layout
-@import "base/page";
-@import "base/body";
+@import "layout/page";
+@import "layout/body";
+
+@import "typography/typo";
 
 @import "header/header";
 @import "header/logo";
 @import "header/search";
 @import "header/contact";
 @import "header/cart";
+
+@import "footer/footer";
 
 @import "menu-header/menu";
 
@@ -50,8 +57,17 @@
 @import "category/products";
 @import "category/filters";
 
+@import "product/product";
+
 @import "footer/footer";
+@import "footer/newsletter";
+@import "footer/information";
+@import "footer/copyright";
 
 @import "general/pagination";
+@import "general/breadcrumb";
 
 @import "components/panel/panel";
+@import "components/banner/banner-pro";
+@import "components/filter-group/filter-group";
+@import "components/accordion-menu/accordion-menu";

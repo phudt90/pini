@@ -1,4 +1,13 @@
 .m-products {
+  .m-product-grid {
+    &--3 {
+      .m-product-item__thumb {
+        min-height: 150px;
+        max-height: 150px;
+      }
+    }
+  }
+
 
   .m-product-item {
     padding: 0;
@@ -24,8 +33,6 @@
       position: relative;
       overflow: hidden;
       align-items: center;
-      min-height: 250px;
-      max-height: 250px;
       text-align: center;
 
       > a {

@@ -1,0 +1,25 @@
+footer {
+  .information {
+    color: #6A7B8E;
+    padding: 40px 0 35px;
+
+    .information-heading {
+      font-size: get-font-size(regular, '+++');
+      font-weight: get-font-weight(bold);
+      color: #14152D;
+    }
+
+    ul.information-list {
+      > li {
+        > a {
+          color: #6A7B8E;
+          font-size: get-font-size(regular);
+
+          &:hover {
+            color: get-brand-color();
+          }
+        }
+      }
+    }
+  }
+}

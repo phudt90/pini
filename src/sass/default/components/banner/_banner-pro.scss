@@ -1,0 +1,218 @@
+/* Theme Banner Pro */
+.banner-pro {
+  display: block;
+  @include border-radius(10px);
+  overflow: hidden;
+  margin-bottom: 20px;
+
+  .banner-pro-item {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.2, 1, 0.3, 1) 0s;
+    z-index: 1;
+
+    &:hover {
+      z-index: 2;
+    }
+
+    &.content-center-left .banner-pro-content-wrapper {
+      left: 0;
+      padding: 30px 0 30px 30px;
+      width: 55%;
+    }
+
+    &.content-center-right .banner-pro-content-wrapper {
+      left: inherit;
+      right: 0;
+      padding: 30px 30px 30px 0;
+      width: 55%;
+    }
+
+    &.content-top-left h2,
+    &.content-left h2,
+    &.content-bottom-left h2 {
+      text-align: left;
+    }
+
+    &.content-top-center .banner-pro-content-wrapper,
+    &.content-center .banner-pro-content-wrapper,
+    &.content-bottom-center .banner-pro-content-wrapper,
+    &.content-center-left .banner-pro-content-wrapper,
+    &.content-center-right .banner-pro-content-wrapper,
+    &.content-top-center h2,
+    &.content-center h2,
+    &.content-bottom-center h2 {
+      text-align: center;
+    }
+
+    &.content-top-right .banner-pro-content-wrapper,
+    &.content-right .banner-pro-content-wrapper,
+    &.content-bottom-right .banner-pro-content-wrapper,
+    &.content-top-right h2,
+    &.content-right h2,
+    &.content-bottom-right h2 {
+      text-align: right !important;
+    }
+
+    &.content-left .banner-pro-content-wrapper .banner-pro-content-table-cell,
+    &.content-center .banner-pro-content-wrapper .banner-pro-content-table-cell,
+    &.content-right .banner-pro-content-wrapper .banner-pro-content-table-cell,
+    &.content-center-left .banner-pro-content-wrapper .banner-pro-content-table-cell,
+    &.content-center-right .banner-pro-content-wrapper .banner-pro-content-table-cell {
+      vertical-align: middle;
+    }
+
+    &.content-bottom-left .banner-pro-content-wrapper .banner-pro-content-table-cell,
+    &.content-bottom-center .banner-pro-content-wrapper .banner-pro-content-table-cell,
+    &.content-bottom-right .banner-pro-content-wrapper .banner-pro-content-table-cell {
+      vertical-align: bottom;
+    }
+
+    img  {
+      transition: all 1.5s cubic-bezier(0.2, 1, 0.3, 1) 0s;
+    }
+
+    &.effect-2:hover img  {
+      transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+    }
+    &.effect-3 img  {
+      transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+    }
+    &:hover img  {
+      transform: scale(1.0);
+      -moz-transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+      -o-transform: scale(1.0);
+      -ms-transform: scale(1.0);
+    }
+    &.effect-4 img  {
+      transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+    }
+    &.effect-4:hover img  {
+      margin-left: -5%;
+      margin-right: 5%;
+    }
+    &.effect-5 img  {
+      transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -webkit-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+    }
+    &.effect-5:hover img  {
+      margin-top: -5%;
+      margin-bottom: 5%;
+    }
+    &.effect-6 .banner-pro-bg  {
+      top: -100%;
+    }
+    &.effect-6:hover .banner-pro-bg  {
+      top: 0;
+    }
+    &.effect-7 .banner-pro-bg  {
+      top: inherit;
+      bottom: -100%;
+    }
+    &.effect-7:hover .banner-pro-bg  {
+      bottom: 0;
+    }
+    &.effect-8 .banner-pro-bg  {
+      left: -100%;
+    }
+    &.effect-8:hover .banner-pro-bg  {
+      left: 0;
+    }
+    &.effect-9 .banner-pro-content-wrapper span,
+    &.effect-9 .banner-pro-content-wrapper span h2 {
+      opacity: 0;
+      transition: all 1.5s cubic-bezier(0.2, 1, 0.3, 1) 0s;
+    }
+    &.effect-9:hover .banner-pro-content-wrapper span,
+    &.effect-9:hover .banner-pro-content-wrapper span h2 {
+      opacity: 1;
+    }
+    &.effect-10 .banner-pro-content-wrapper span.banner-pro-button {
+      opacity: 0;
+      transition: all 1.5s cubic-bezier(0.2, 1, 0.3, 1) 0s;
+    }
+    &.effect-10:hover .banner-pro-content-wrapper span.banner-pro-button  {
+      opacity: 1;
+    }
+    &.effect-10:hover img  {
+      transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -o-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+    }
+  }
+
+  .banner-pro-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #14152D;
+    @include transition(all 0.3s ease-in 0s);
+    @include opacity(0);
+  }
+
+  .banner-pro-content-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 45px 20px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+
+  .banner-pro-content-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+
+    .banner-pro-content-table-cell {
+      display: table-cell;
+    }
+  }
+
+  .banner-pro-label {
+    display: block;
+    margin-bottom: 2px;
+  }
+  h2.banner-pro-title {
+    margin: 0;
+    padding-bottom: 10px !important;
+  }
+  h2.banner-pro-title:before {
+    border-bottom: none !important;
+  }
+  .banner-pro-subtitle {
+    font-weight: get-font-weight(thin);
+    line-height: 1.7;
+    margin-bottom: 0;
+    width: 100%;
+  }
+  .banner-pro-button.btn {
+    padding: 12px 20px;
+    margin-top: 20px;
+    transition: all 0.15s ease-in 0s;
+  }
+}
+
+

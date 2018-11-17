@@ -1,0 +1,24 @@
+.m-product {
+  font-weight: get-font-weight(thin);
+
+  .m-product__galleries {}
+
+  .m-product__name {
+    font-size: get-font-size(regular, '+++++');
+    font-weight: get-font-weight(bold);
+    margin: 0 0 10px;
+    text-transform: none;
+  }
+
+  .m-product__info {
+    font-size: get-font-size(regular, '+');
+    font-weight: get-font-weight(thin);
+
+    p {
+      margin: 0 0 5px;
+    }
+  }
+
+  .m-product__specs {}
+
+}
