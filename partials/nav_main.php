@@ -428,6 +428,14 @@ $categoryPath = $basePath . '/pages/category.php';
                 </div>
               </li>
               <li>
+                <a href="javascript:;">Form Widgets <i class="la la-angle-right"></i></a>
+                <div class="dropdown-menus">
+                  <ul class="list-unstyled">
+                    <li><a href="<?php echo $basePath ?>/pages/crud/forms/widgets/bootstrap-touchspin.php">Bootstrap Touchspin</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li>
                 <a href="javascript:;">Form Layouts <i class="la la-angle-right"></i></a>
                 <div class="dropdown-menus">
                   <ul class="list-unstyled">

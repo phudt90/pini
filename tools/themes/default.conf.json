@@ -55,6 +55,14 @@
             }
           },
           "optional": {
+            "bootstrap-touchspin": {
+              "styles": [
+                "{$config.path.node_modules}/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.css"
+              ],
+              "scripts": [
+                "{$config.path.node_modules}/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.js"
+              ]
+            },
             "font-roboto": {
               "styles": [
                 "{$config.path.src}/vendors/font-roboto/css/roboto.css"
@@ -120,9 +128,15 @@
         },
         "custom": {
           "src": {
+            "scripts": [
+              "{$config.path.src}/js/demo/default/custom/**/*.js"
+            ],
             "media": [
               "{$config.path.src}/media/**/*.*"
             ]
+          },
+          "bundle": {
+            "scripts": "{$config.output}/demo/default/demo.bundle.js"
           },
           "output": {
             "media": "{$config.output}/media/"

@@ -79,7 +79,7 @@ body.m-header-fixed {
         }
 
         .m-dropdown__wrapper {
-          z-index: 5001;
+          z-index: 5001!important;
           @include shadow(0 0 15px rgba(76,88,103,0.15));
         }
       }

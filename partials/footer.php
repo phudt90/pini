@@ -110,3 +110,4 @@
 </footer>
 <script src="<?php echo $basePath ?>/dist/assets/vendors/base/vendors.bundle.js"></script>
 <script src="<?php echo $basePath ?>/dist/assets/default/base/scripts.bundle.js"></script>
+<script src="<?php echo $basePath ?>/dist/assets/demo/default/demo.bundle.js"></script>

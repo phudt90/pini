@@ -10,6 +10,57 @@
     text-transform: none;
   }
 
+  .m-product__flexbox {
+    @include flexbox();
+  }
+
+  .m-product__terms {
+    ul {
+      margin: 0;
+    }
+  }
+
+  .m-product__brand {
+    img {
+      max-width: 85px;
+    }
+  }
+
+  .m-product__buy {
+    background-color: #F2F4F8;
+    padding: 30px;
+    margin: 20px 0;
+    @include border-radius(10px);
+  }
+
+  .m-product__price {
+    margin: 0 0 20px;
+
+    > span {
+      margin: 0 5px 0 0;
+    }
+
+    .price-label {}
+
+    .price-new {
+      color: array-get($m--state-colors, accent, base);
+      font-size: get-font-size(regular, '++++');
+      font-weight: get-font-weight(bold);
+    }
+
+    .price-old {
+      font-size: get-font-size(regular, '+');
+      font-weight: get-font-weight(thin);
+      text-decoration: line-through;
+    }
+  }
+
+  .m-product__cart {
+    i {
+      font-size: 2rem;
+    }
+  }
+
   .m-product__info {
     font-size: get-font-size(regular, '+');
     font-weight: get-font-weight(thin);

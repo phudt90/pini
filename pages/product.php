@@ -24,22 +24,25 @@ $basePath  = "http://" . $_SERVER['SERVER_NAME'];
           <div class="m-product__center">
             <h1 class="m-product__name">Ắc quy ô tô DAEWOO DIN 56219 12V 62Ah</h1>
 
-            <div class="m-product__terms">
-              <div><span>Thương hiệu:</span> <a target="_blank" href="javascript:;">DAEWOO</a></div>
-              <div><span>Mã sản phẩm:</span> DAEWOO DIN 56219</div>
+            <div class="m-product__flexbox justify-content-between align-items-end">
+              <div class="m-product__terms">
+                <ul class="list-unstyled">
+                  <li><span>Thương hiệu:</span> <a target="_blank" href="javascript:;">DAEWOO</a></li>
+                  <li><span>Mã sản phẩm:</span> DAEWOO DIN 56219</li>
+                </ul>
+              </div>
               <div class="m-product__brand">
-                <a href="javascript:;">
-                  <img src="<?php echo $basePath; ?>/dist/assets/media/img/brand/daewoo.png" class="img-responsive" />
+                <a href="javascript:;" data-toggle="m-tooltip" title="See all products by Sample Brand">
+                  <img src="<?php echo $basePath; ?>/dist/assets/media/img/brand/usbattery.png" class="img-responsive" />
                 </a>
               </div>
             </div>
 
             <div class="m-product__buy">
               <div class="m-product__price">
-                <p class="m-product__price-new">
-                  <span class="price-label">Giá:</span>
-                  <span class="price-value">1,890,000 đ</span>
-                </p>
+                <span class="price-label">Giá:</span>
+                <span class="price-new">1,890,000 đ</span>
+                <span class="price-old">990,000 đ</span>
               </div>
               <div class="m-product__cart">
                 <a href="javascript:;" class="btn btn-primary m-btn m-btn--icon">
