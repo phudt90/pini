@@ -9,6 +9,12 @@ footer {
       color: #14152D;
     }
 
+    p {
+      a {
+        @include link-hover(brand);
+      }
+    }
+
     ul.information-list {
       > li {
         > a {

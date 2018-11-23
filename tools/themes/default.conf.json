@@ -55,6 +55,22 @@
             }
           },
           "optional": {
+            "cloud-zoom": {
+              "styles": [
+                "{$config.path.src}/vendors/cloud-zoom/cloud-zoom.css"
+              ],
+              "scripts": [
+                "{$config.path.src}/vendors/cloud-zoom/cloud-zoom.js"
+              ]
+            },
+            "swiper": {
+              "styles": [
+                "{$config.path.node_modules}/swiper/dist/css/swiper.css"
+              ],
+              "scripts": [
+                "{$config.path.node_modules}/swiper/dist/js/swiper.js"
+              ]
+            },
             "bootstrap-touchspin": {
               "styles": [
                 "{$config.path.node_modules}/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.css"

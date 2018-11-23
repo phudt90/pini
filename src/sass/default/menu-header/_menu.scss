@@ -38,8 +38,8 @@
   line-height: 40px;
   max-height: 40px;
   background-repeat: repeat-x;
-  transition: all 0.2s ease-in 0s;
-  z-index: 3000;
+  @include transition(all 0.2s ease-in 0s);
+  z-index: 5000;
 
   .navbar-collapse {
     box-shadow: none;
@@ -92,12 +92,12 @@
       }
 
       .la {
-        font-size: .7rem;
+        font-size: .9rem;
       }
 
       > a {
         display: block;
-        font-size: get-font-size(regular, '+');
+        font-size: get-font-size(regular, '++');
         font-weight: get-font-weight(bold);
         color: inherit;
         padding: 10px 15px;
@@ -121,7 +121,7 @@
     margin-top: 20px;
     padding: 20px 0;
     visibility: hidden;
-    z-index: 999;
+    z-index: 5001;
     background-color: #FFFFFF;
     background-position: right top;
     background-repeat: no-repeat;
@@ -185,8 +185,8 @@
         display: block;
         position: relative;
         @include link-hover(accent);
-        font-size: get-font-size(regular, '-');
-        font-weight: get-font-weight(normal);
+        font-size: get-font-size(regular);
+        font-weight: get-font-weight(thin);
         text-decoration: none;
       }
     }

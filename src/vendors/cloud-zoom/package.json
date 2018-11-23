@@ -1,0 +1,46 @@
+{
+  "_from": "@cabbiepete/cloud-zoom",
+  "_id": "@cabbiepete/cloud-zoom@1.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-YPqLCDyA0v4BN/00NZAM2v2QBxpnabBEgIVTTGpJK5/XiX2HN86ccLbkRx50LX5YwW/HLiBBa8kDZvywcQtptQ==",
+  "_location": "/@cabbiepete/cloud-zoom",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@cabbiepete/cloud-zoom",
+    "name": "@cabbiepete/cloud-zoom",
+    "escapedName": "@cabbiepete%2fcloud-zoom",
+    "scope": "@cabbiepete",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@cabbiepete/cloud-zoom/-/cloud-zoom-1.0.4.tgz",
+  "_shasum": "3f1582b594663504461df275c9dc071bdda95493",
+  "_spec": "@cabbiepete/cloud-zoom",
+  "_where": "D:\\UniServerZ\\vhosts\\pini\\tools",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/cabbiepete/cloud-zoom/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "This is a fork of Version 1.0.2 of Professorclouds cloud zoom",
+  "homepage": "https://github.com/cabbiepete/cloud-zoom#readme",
+  "license": "MIT",
+  "main": "cloud-zoom.js",
+  "name": "@cabbiepete/cloud-zoom",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cabbiepete/cloud-zoom.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.4"
+}

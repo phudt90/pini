@@ -26,7 +26,7 @@ $basePath  = "http://" . $_SERVER['SERVER_NAME'];
           <div class="m-content">
             <div class="m-panel mb-0">
               <div class="m-panel__heading">
-                <h1 class="h3">Ắc quy ô tô aaa</h1>
+                <h1 class="h3">Ắc quy ô tô</h1>
               </div>
               <div class="m-panel__body">
                 <div class="m-panel__description">

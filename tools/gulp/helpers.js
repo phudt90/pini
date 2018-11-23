@@ -1,6 +1,7 @@
 'use strict';
 
 var gulp = require('gulp');
+var plumber = require('gulp-plumber');
 var sass = require('gulp-sass');
 var rename = require('gulp-rename');
 var rewrite = require('gulp-rewrite-css');
@@ -116,7 +117,7 @@ module.exports = {
 				errLogToConsole: true,
 				includePaths: includePaths,
 				outputStyle: config.cssMinify ? 'compressed' : '',
-			}).on('error', sass.logError);
+			});
 		}).pipe(function() {
 			return gulpif(true, autoprefixer({
 				browsers: ['last 2 versions'],
@@ -368,17 +369,21 @@ module.exports = {
 					case 'styles':
 						if (bundle.bundle.hasOwnProperty(type)) {
 							// default css bundle
-							gulp.src(bundle.src[type]).
-									pipe(_self.cssRewriter(bundle.bundle[type])()).
-									pipe(concat(outputFile)).
-									pipe(_self.cssChannel()()).
-									pipe(_self.outputChannel(bundle.bundle[type], outputFile)());
+							gulp.src(bundle.src[type])
+								.pipe(_self.cssRewriter(bundle.bundle[type])())
+								.pipe(concat(outputFile))
+								.pipe(plumber())
+								.pipe(_self.cssChannel()())
+								.pipe(_self.outputChannel(bundle.bundle[type], outputFile)());
 						}
 						break;
 
 					case 'scripts':
 						if (bundle.bundle.hasOwnProperty(type)) {
-							gulp.src(bundle.src[type]).pipe(concat(outputFile)).pipe(_self.jsChannel()()).pipe(_self.outputChannel(bundle.bundle[type], outputFile)());
+							gulp.src(bundle.src[type])
+								.pipe(concat(outputFile))
+								.pipe(_self.jsChannel()())
+								.pipe(_self.outputChannel(bundle.bundle[type], outputFile)());
 						}
 						break;
 
@@ -414,7 +419,10 @@ module.exports = {
 				switch (type) {
 					case 'styles':
 						if (bundle.output.hasOwnProperty(type)) {
-							gulp.src(bundle.src[type]).pipe(_self.cssChannel()()).pipe(_self.outputChannel(bundle.output[type])());
+							gulp.src(bundle.src[type])
+								.pipe(plumber())
+								.pipe(_self.cssChannel()())
+								.pipe(_self.outputChannel(bundle.output[type])());
 						}
 						break;
 					case 'scripts':

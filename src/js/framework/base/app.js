@@ -74,6 +74,26 @@ var mApp = function() {
       }
       $self.theiaStickySidebar(options);
     });
+  };
+
+  var initProductImageZoom = function() {
+    $('.cloud-zoom, .cloud-zoom-gallery').CloudZoom();
+  }
+
+  var initProductGallery = function() {
+    var mySwiper = new Swiper ('.m-product__thumbnails-container', {
+      // Optional parameters
+      direction: 'horizontal',
+      slidesPerView: 4,
+      slidesPerColumn: 1,
+      spaceBetween: 15,
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.thumbnails-btn--next',
+        prevEl: '.thumbnails-btn--prev',
+      },
+    })
   }
 
   /**
@@ -245,6 +265,8 @@ var mApp = function() {
       initTooltips();
       initVerticalAccordionMenus();
       initStickySidebar();
+      initProductImageZoom();
+      initProductGallery();
     },
 
 
