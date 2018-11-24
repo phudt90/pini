@@ -68,7 +68,7 @@
                 "{$config.path.node_modules}/swiper/dist/css/swiper.css"
               ],
               "scripts": [
-                "{$config.path.node_modules}/swiper/dist/js/swiper.js"
+                "{$config.path.node_modules}/swiper/dist/js/swiper.jquery.js"
               ]
             },
             "bootstrap-touchspin": {

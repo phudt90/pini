@@ -1,0 +1,63 @@
+.swiper-viewport {
+  position: relative;
+  overflow: visible;
+  margin: 0 0 20px;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+
+  &:hover {
+    .swiper-pager .swiper-button {
+      @include opacity(1);
+    }
+
+    .swiper-pager .swiper-button.swiper-button--prev {
+      left: 0;
+    }
+
+    .swiper-pager .swiper-button.swiper-button--next {
+      right: 0;
+    }
+  }
+
+  .swiper-pager {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    @include flexbox();
+    @extend .justify-content-between;
+    @extend .align-items-center;
+
+    .swiper-button {
+      position: relative;
+      cursor: pointer;
+      outline: none;
+      z-index: 2;
+      @include opacity(0);
+      @include transition(all 0.2s ease-in-out);
+
+      &.swiper-button-disabled {
+
+        > i {
+          color: rgba(0,0,0,.2);
+        }
+      }
+
+      &--prev {
+        left: -20px;
+      }
+
+      &--next {
+        right: -20px;
+      }
+
+      > i {
+        color: inherit;
+        font-size: 2rem;
+      }
+    }
+  }
+}

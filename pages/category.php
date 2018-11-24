@@ -117,7 +117,7 @@ $basePath  = "http://" . $_SERVER['SERVER_NAME'];
             for($i= 0; $i<$count; $i++) {
               array_push($products, [
                 'name' => $names[array_rand($names)],
-                'thumb' => $basePath . '/dist/assets/media/img/product/'.rand(1, 10).'.jpg',
+                'thumb' => $basePath . '/dist/assets/media/img/product/b'.rand(1, 10).'.jpg',
                 'brand' => $brands[array_rand($brands)],
                 'price' => rand(1, 4) . '.' . rand(1, 9) . '00.000',
                 'price_old' => rand(1, 0) ? (rand(1, 4) . '.' . rand(1, 9) . '00.000') : ''

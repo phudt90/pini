@@ -58,6 +58,7 @@
 @import "category/filters";
 
 @import "product/product";
+@import "product/swiper-products";
 
 @import "footer/footer";
 @import "footer/newsletter";
@@ -67,7 +68,13 @@
 @import "general/pagination";
 @import "general/breadcrumb";
 
+@import "components/home/search";
+@import "components/home/feature";
+@import "components/home/products";
+
 @import "components/panel/panel";
 @import "components/banner/banner-pro";
 @import "components/filter-group/filter-group";
 @import "components/accordion-menu/accordion-menu";
+
+@import "plugins/swiper/swiper";

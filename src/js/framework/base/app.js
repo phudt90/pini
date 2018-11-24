@@ -1,5 +1,5 @@
 /**
- * @class mApp  Metronic App class
+ * @class mApp App class
  */
 
 var mApp = function() {
@@ -78,23 +78,38 @@ var mApp = function() {
 
   var initProductImageZoom = function() {
     $('.cloud-zoom, .cloud-zoom-gallery').CloudZoom();
-  }
+  };
 
   var initProductGallery = function() {
-    var mySwiper = new Swiper ('.m-product__thumbnails-container', {
+    var mSwiper = new Swiper ('.m-product__thumbnails .swiper-container', {
       // Optional parameters
       direction: 'horizontal',
       slidesPerView: 4,
       slidesPerColumn: 1,
-      spaceBetween: 15,
+      spaceBetween: 10,
 
       // Navigation arrows
       navigation: {
-        nextEl: '.thumbnails-btn--next',
-        prevEl: '.thumbnails-btn--prev',
+        nextEl: '.m-product__thumbnails .swiper-button--next',
+        prevEl: '.m-product__thumbnails .swiper-button--prev',
       },
-    })
-  }
+    });
+  };
+
+  var initSwiperProducts = function() {
+    var mSwiper = new Swiper ('.m-swiper-products .swiper-container', {
+      direction: 'horizontal',
+      slidesPerView: 6,
+      slidesPerColumn: 1,
+      spaceBetween: 0,
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.m-swiper-products .swiper-button--next',
+        prevEl: '.m-swiper-products .swiper-button--prev',
+      },
+    });
+  };
 
   /**
    * Initializes bootstrap popover
@@ -267,6 +282,7 @@ var mApp = function() {
       initStickySidebar();
       initProductImageZoom();
       initProductGallery();
+      initSwiperProducts();
     },
 
 

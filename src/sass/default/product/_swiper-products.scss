@@ -1,0 +1,17 @@
+.m-swiper-products {
+  .m-product-item {
+    .m-product-item__thumb {
+      min-height: 220px;
+      max-height: 220px;
+    }
+  }
+
+  .swiper-pager {
+    .swiper-button {
+
+      > i {
+        font-size: 4rem!important;
+      }
+    }
+  }
+}

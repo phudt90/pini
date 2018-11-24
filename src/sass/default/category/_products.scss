@@ -2,8 +2,8 @@
   .m-product-grid {
     &--3 {
       .m-product-item__thumb {
-        min-height: 150px;
-        max-height: 150px;
+        min-height: 180px;
+        max-height: 180px;
       }
     }
   }
@@ -62,7 +62,7 @@
 
         a {
           color: inherit;
-          font-size: get-font-size(regular, '+');
+          font-size: get-font-size(regular);
           font-weight: get-font-weight(normal);
           line-height: 1.4;
         }

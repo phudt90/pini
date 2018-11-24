@@ -1,0 +1,2 @@
+[24-Nov-2018 06:35:51 Europe/London] PHP Notice:  Undefined variable: products in D:\UniServerZ\www\testing\index.php on line 109
+[24-Nov-2018 06:35:51 Europe/London] PHP Warning:  Invalid argument supplied for foreach() in D:\UniServerZ\www\testing\index.php on line 109
