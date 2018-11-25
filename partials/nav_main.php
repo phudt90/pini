@@ -297,7 +297,7 @@ $categoryPath = $basePath . '/pages/category.php';
                 <?php for($i = 0; $i<18; $i++) { ?>
                 <div class="col-sm-12 col-md-1">
                   <a href="javascript:;">
-                    <div class="image"><img src="<?php echo $basePath ?>/dist/img/logo_1-170x100.png" title="Sample Brand" alt="Sample Brand" /></div>
+                    <div class="image"><img src="<?php echo $basePath ?>/dist/assets/media/img/brand/dongnai.png" title="Sample Brand" alt="Sample Brand" /></div>
                     <div class="name">Sample Brand</div>
                   </a>
                 </div>

@@ -4,8 +4,9 @@
 
   .home-feature-wrapper {
     background: #fff;
-    @include border-radius(4px);
     padding: 20px;
+    @include border-radius(4px);
+    @include shadow(0 2px 4px 0 rgba(0,0,0,.24));
   }
 
   .home-feature-title {

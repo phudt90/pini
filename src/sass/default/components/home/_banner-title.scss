@@ -1,0 +1,31 @@
+.home-banner-title {
+  background-color: #F2F4F8;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  padding: 45px;
+  min-height: 420px;
+  @include border-radius(10px);
+
+  &--bg-1 {
+    background-image: url('../../media/img/banner/custom_products_cat_1.jpg');
+  }
+
+  &--bg-2 {
+    background-image: url('../../media/img/banner/custom_products_cat_2.jpg');
+  }
+
+  .home-banner-title-text {
+    margin: 0 0 20px;
+  }
+
+  .home-banner-title-subtext {
+    font-size: get-font-size(regular);
+    @extend .m--font-thin;
+    color: #6A7B8E;
+  }
+
+  .btn {
+    margin-top: 40px;
+  }
+}

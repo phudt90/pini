@@ -242,7 +242,7 @@ $basePath  = "http://" . $_SERVER['SERVER_NAME'];
           }
           ?>
 
-          <div class="swiper-viewport m-products m-swiper-products">
+          <div class="swiper-viewport m-products m-swiper-products" id="m-product-related" data-slides-per-view="6">
             <div class="swiper-container">
               <div class="swiper-wrapper">
                 <?php foreach($products as $product) { ?>

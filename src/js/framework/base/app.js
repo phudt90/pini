@@ -97,17 +97,24 @@ var mApp = function() {
   };
 
   var initSwiperProducts = function() {
-    var mSwiper = new Swiper ('.m-swiper-products .swiper-container', {
-      direction: 'horizontal',
-      slidesPerView: 6,
-      slidesPerColumn: 1,
-      spaceBetween: 0,
+    $('.m-swiper-products').each(function () {
+      var $self = $(this),
+        selector = '#' + $self.attr('id') + ' .swiper-container',
+        slidesPerView = parseInt($self.data('slides-per-view'))
+      ;
 
-      // Navigation arrows
-      navigation: {
-        nextEl: '.m-swiper-products .swiper-button--next',
-        prevEl: '.m-swiper-products .swiper-button--prev',
-      },
+      var s = new Swiper(selector, {
+        direction: 'horizontal',
+        slidesPerView: slidesPerView,
+        slidesPerColumn: 1,
+        spaceBetween: 0,
+
+        // Navigation arrows
+        navigation: {
+          nextEl: selector + ' .swiper-button--next',
+          prevEl: selector + ' .swiper-button--prev',
+        },
+      });
     });
   };
 
